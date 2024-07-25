@@ -52,4 +52,35 @@ test('test', async ({ context1 }) => {
     const passwordSelector = 'input[type="password"].sc-hJJSeN.ixSRbR';
     await newPage2.fill(passwordSelector, '951369ting');
     await newPage2.click('text=Confirm');
+
+
+    let jwtToken = '';
+   
+    await page.route('**/account_info', (route, request) => {
+        const headers = request.headers();
+        if (headers['authorization']) {
+            jwtToken = headers['authorization'];
+            console.log('JWT:', headers['authorization']);
+            console.log(request);
+        }
+    });
+
+    // Define API base URL
+    const apiBaseUrl = 'https://fafafa.io'; // Replace with your actual API base URL
+
+    // Simulate an API call to /api/account_info that includes JWT
+   
+
+    
+
+    page.on('request', request => {
+        const url = request.url();
+        if (url.includes('/account_info')) {
+            const headers = request.headers();
+            if (headers['authorization']) {
+                const jwtToken = headers['authorization'];
+                console.log(`Captured JWT: ${jwtToken}`);
+            }
+        }
+    });
 });
