@@ -1,0 +1,70 @@
+name: Run Playwright Tests
+
+on:
+  push:
+    branches:
+      - main  
+  repository_dispatch:
+    types: [vercel-deploy-success]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # 执行环境，这里选择了最新的 Ubuntu
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4  # 检出代码
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'  # 设置 Node.js 版本
+
+      - name: Install dependencies
+        run: npm install  # 安装依赖，如果使用 pnpm，改为 pnpm install
+
+      
+
+      - name: Install Playwright browsers
+        run: npx playwright install  # Install Playwright browsers
+
+
+      - name: Install XVFB
+        run: |
+          sudo apt-get update
+          sudo apt-get install xvfb
+
+      - name: Start XVFB and run Playwright tests
+        run: |
+          
+          xvfb-run npx playwright test examplechat.spec.ts
+      # xvfb-run npx ts-node tests-github-actions/InvitationInit-test.ts
+      # - name: Start XVFB and run Playwright test
+      #   run: |
+      #     xvfb-run npm test tests-github-actions/jwt_jest_pipeline.test.ts
+  
+
+      # - name: Run Playwright tests in headless mode
+      #   run: npx ts-node tests/jwt-test-pipeline.ts  # 替换为你运行测试的命令，比如 npm run test:e2e
+
+
+        # env:
+        #   PLAYWRIGHT_BROWSERS_PATH: /home/runner/work/_actions/microsoft/playwright-github-actions@v2.7.0/lib/browsers
+        #   CHROME_USER_DATA_DIR: /tmp/chrome-user-data  # 可选的 Chrome 用户数据目录，根据需要自定义
+
+
+      # - name: Run Playwright tests
+      #   run: npx ts-node tests/jwt-test.ts  # 替换为你运行测试的命令，比如 npm run test:e2e
+
+      - name: Save artifacts
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-results
+          path: testResults
+
+      - name: Print Payload Information
+        if: github.event_name == 'repository_dispatch'
+        run: |
+          echo "Repository: ${{ github.event.client_payload.repository }}"
+          echo "Branch: ${{ github.event.client_payload.branch }}"

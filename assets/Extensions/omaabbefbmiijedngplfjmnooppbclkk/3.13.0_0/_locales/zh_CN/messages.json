@@ -1,0 +1,3707 @@
+{
+   "App_version_copied": {
+      "message": "App version copied"
+   },
+   "Back_up_now": {
+      "message": "Back up now"
+   },
+   "Change": {
+      "message": "Change"
+   },
+   "Change_password": {
+      "message": "Change password"
+   },
+   "ConfirmPassword": {
+      "message": "Re-enter password"
+   },
+   "Copy_address": {
+      "message": "Copy address"
+   },
+   "Create_password": {
+      "message": "Create password"
+   },
+   "Delete_all_accounts_and_logout": {
+      "message": "Delete all accounts and logout"
+   },
+   "Delete_wallet_data": {
+      "message": "Delete wallet data"
+   },
+   "Delete_wallet_data_description": {
+      "message": "Wallet keys and all personal data will be erased from this device."
+   },
+   "Edit_jettons": {
+      "message": "Edit"
+   },
+   "Enable_storing_config": {
+      "message": "Enable storing config"
+   },
+   "I_have_a_backup_copy_of_recovery_phrase": {
+      "message": "I have a backup copy of recovery phrase"
+   },
+   "IncorrectCurrentPassword": {
+      "message": "Incorrect current password."
+   },
+   "Localization": {
+      "message": "Language"
+   },
+   "Lock_screen": {
+      "message": "Lock screen"
+   },
+   "Manage": {
+      "message": "Manage"
+   },
+   "Manage_wallets": {
+      "message": "Manage wallets"
+   },
+   "MinPassword": {
+      "message": "Must be at least 6 characters."
+   },
+   "NFT_collection_id": {
+      "message": "NFT collection ID"
+   },
+   "NFT_creation": {
+      "message": "NFT creation"
+   },
+   "NFT_item_id": {
+      "message": "NFT item ID"
+   },
+   "Name_your_wallet": {
+      "message": "Name your wallet"
+   },
+   "Name_your_wallet_description": {
+      "message": "Name your wallet to easily identify it while using the Tonkeeper. These names are stored locally, and can only be seen by you."
+   },
+   "Old_password": {
+      "message": "Current password"
+   },
+   "Password": {
+      "message": "Password"
+   },
+   "PasswordChanged": {
+      "message": "Password Changed"
+   },
+   "PasswordDoNotMatch": {
+      "message": "Passwords do not match."
+   },
+   "Rename": {
+      "message": "Rename"
+   },
+   "Ton_page_description": {
+      "message": "TON is a fully decentralized layer-1 blockchain designed by Telegram to onboard billions of users. It boasts ultra-fast transactions, tiny fees, easy-to-use apps, and is environmentally friendly."
+   },
+   "Toncoin": {
+      "message": "Toncoin"
+   },
+   "Unexpected_QR_Code": {
+      "message": "Unexpected QR Code"
+   },
+   "Unlock": {
+      "message": "Unlock"
+   },
+   "Wallet_name": {
+      "message": "Wallet name"
+   },
+   "about_ton": {
+      "message": "TON 是 Telegram 为数十亿用户设计的完全去中心化的第一层区块链。它拥有超快的交易速度、极低的费用、易于使用的应用程序，并且非常环保。"
+   },
+   "access_confirmation_logout": {
+      "message": "退出登录"
+   },
+   "access_confirmation_reset": {
+      "message": "重置"
+   },
+   "access_confirmation_title": {
+      "message": "输入密码"
+   },
+   "access_confirmation_update_biometry": {
+      "message": "输入密码以使用生物识别身份验证数据"
+   },
+   "access_denied": {
+      "message": "访问被禁止"
+   },
+   "account_deleted": {
+      "message": "账户已删除"
+   },
+   "actionTitle": {
+      "message": "Open the wallet"
+   },
+   "activityActionModal_bid": {
+      "message": "Bid"
+   },
+   "activityActionModal_burned": {
+      "message": "Burned"
+   },
+   "activityActionModal_call_contract": {
+      "message": "Call contract"
+   },
+   "activityActionModal_deposit": {
+      "message": "Stake"
+   },
+   "activityActionModal_purchase": {
+      "message": "Purchase"
+   },
+   "activityActionModal_received": {
+      "message": "Received"
+   },
+   "activityActionModal_sent": {
+      "message": "Sent"
+   },
+   "activityActionModal_swapped": {
+      "message": "Swapped"
+   },
+   "activityActionModal_time_on": {
+      "message": "on %{time}"
+   },
+   "activityActionModal_withdraw": {
+      "message": "Unstake"
+   },
+   "activityActionModal_withdrawal_request": {
+      "message": "Unstake Request"
+   },
+   "activity_buy_toncoin_btn": {
+      "message": "购买Toncoin"
+   },
+   "activity_empty_transaction_caption": {
+      "message": "进行您的第一笔交易！"
+   },
+   "activity_empty_transaction_title": {
+      "message": "您的活动将在此显示"
+   },
+   "activity_failed_transaction": {
+      "message": "失败"
+   },
+   "activity_receive_btn": {
+      "message": "接收"
+   },
+   "activity_received": {
+      "message": "已接收"
+   },
+   "activity_screen_title": {
+      "message": "活动"
+   },
+   "activity_sent": {
+      "message": "已发送"
+   },
+   "add_dns_address": {
+      "message": "Add wallet address that domain %1% will link to."
+   },
+   "add_edit_favorite_add_title": {
+      "message": "新的收藏"
+   },
+   "add_edit_favorite_address_label": {
+      "message": "地址"
+   },
+   "add_edit_favorite_delete": {
+      "message": "删除"
+   },
+   "add_edit_favorite_edit_title": {
+      "message": "编辑收藏"
+   },
+   "add_edit_favorite_name_placeholder": {
+      "message": "名称"
+   },
+   "add_edit_favorite_save": {
+      "message": "保存"
+   },
+   "add_other_coins": {
+      "message": "增添代币"
+   },
+   "add_wallet": {
+      "message": "添加钱包"
+   },
+   "add_wallet_modal_create_subtitle": {
+      "message": "创建新钱包"
+   },
+   "add_wallet_modal_create_title": {
+      "message": "新钱包"
+   },
+   "add_wallet_modal_import_subtitle": {
+      "message": "使用24个助记词导入钱包"
+   },
+   "add_wallet_modal_import_title": {
+      "message": "现有钱包"
+   },
+   "add_wallet_modal_subtitle": {
+      "message": "创建一个新钱包或添加现有钱包。"
+   },
+   "add_wallet_modal_testnet_subtitle": {
+      "message": "使用24个助记词导入测试网钱包"
+   },
+   "add_wallet_modal_testnet_title": {
+      "message": "测试网账户"
+   },
+   "add_wallet_modal_title": {
+      "message": "添加钱包"
+   },
+   "add_wallet_modal_watch_only_subtitle": {
+      "message": "在没有恢复词的情况下监控钱包活动"
+   },
+   "add_wallet_modal_watch_only_title": {
+      "message": "观察账户"
+   },
+   "add_watch_only_subtitle": {
+      "message": "在没有恢复词的情况下监控钱包活动。您将收到来自此钱包所有交易的通知。"
+   },
+   "add_watch_only_title": {
+      "message": "观察账户"
+   },
+   "add_watch_only_wallet_not_found": {
+      "message": "钱包地址未找到"
+   },
+   "address_copied": {
+      "message": "地址已复制"
+   },
+   "address_update_first_option": {
+      "message": "Most likely the destination wallet is already actively used and you won’t notice any difference."
+   },
+   "address_update_learn_more": {
+      "message": "Learn more"
+   },
+   "address_update_new_style": {
+      "message": "New address"
+   },
+   "address_update_notification_desc_did_change": {
+      "message": "Your wallet address has been updated to the UQ format. The old address also continues to work."
+   },
+   "address_update_notification_desc_will_change": {
+      "message": "On October 5 your wallet address will update to the UQ format which is just better. The old address will also work. You don’t need to do anything."
+   },
+   "address_update_old_style": {
+      "message": "Old address"
+   },
+   "address_update_post_dates": {
+      "message": "\nOctober 5, 2023: all addresses switch to the UQ format in Tonkeeper.\n\nJanuary 1, 2024: Tonkeeper stops checking the contract status and uses the “bounceable” flag in the address. Coins sent to non-published contracts with an EQ address will bounce back to the sender."
+   },
+   "address_update_post_published_date": {
+      "message": "Published: September 27, 2023"
+   },
+   "address_update_post_rest": {
+      "message": "There are two address styles on the TON blockchain and until now only one was used for apps and wallets.\n\nThe EQ format is best for smart contracts that process incoming funds. If a smart contract isn’t published yet — i.e., the code isn’t on the blockchain — then the TONs sent to that address will bounce back to the sender. And this is a safety feature: if there is any error, TONs bounce back.\n\nThe UQ format is best for wallets. Coins never bounce because wallets are designed to simply store funds. Each wallet starts as a plain address without a code on the blockchain. So, it would make no sense for coins to bounce back.\n\nThis year we are switching wallets to the more suitable UQ format. And if you continue sending funds to an old EQ address someone gave you, there will be two options:\n"
+   },
+   "address_update_post_top": {
+      "message": "By the end of this year the entire TON network will display wallet addresses differently. The new address will start with UQ instead of EQ. And the last four letters will change too. The old address will also work and direct to the same wallet. It doesn't effect the safety of funds stored in your wallet anyhow."
+   },
+   "address_update_second_option": {
+      "message": "Less likely that the wallet has never been used for payments. And Tonkeeper won’t send coins to that address next year. You will have to ask the recipient for a new UQ address."
+   },
+   "address_update_title": {
+      "message": "Address Update"
+   },
+   "address_update_why_change": {
+      "message": "Why change?"
+   },
+   "address_update_your_wallet": {
+      "message": "Your wallet"
+   },
+   "all_regions": {
+      "message": "All Regions"
+   },
+   "appExtensionDescription": {
+      "message": "Your extension wallet on The Open Network"
+   },
+   "appName": {
+      "message": "Tonkeeper"
+   },
+   "appTitle": {
+      "message": "Tonkeeper — wallet for TON"
+   },
+   "app_name": {
+      "message": "Tonkeeper"
+   },
+   "appearance_accent_name_andromeda": {
+      "message": "仙女座"
+   },
+   "appearance_accent_name_arctic": {
+      "message": "北极"
+   },
+   "appearance_accent_name_azure": {
+      "message": "湛蓝"
+   },
+   "appearance_accent_name_coral": {
+      "message": "珊瑚"
+   },
+   "appearance_accent_name_cosmos": {
+      "message": "宇宙"
+   },
+   "appearance_accent_name_default": {
+      "message": "Tonkeeper"
+   },
+   "appearance_accent_name_flamingo": {
+      "message": "火烈鸟"
+   },
+   "appearance_accent_name_fluid": {
+      "message": "渐变"
+   },
+   "appearance_accent_name_galaxy": {
+      "message": "银河"
+   },
+   "appearance_accent_name_iris": {
+      "message": "鸢尾"
+   },
+   "appearance_accent_name_marine": {
+      "message": "海洋"
+   },
+   "appearance_accent_name_ocean": {
+      "message": "大海"
+   },
+   "appearance_accent_name_sky": {
+      "message": "天空"
+   },
+   "appearance_confirm": {
+      "message": "设置"
+   },
+   "appearance_description": {
+      "message": "TON Diamonds NFT将使您的钱包更加丰富多彩和独特。"
+   },
+   "appearance_title": {
+      "message": "主题"
+   },
+   "approval_accept": {
+      "message": "接受"
+   },
+   "approval_accepted": {
+      "message": "已接受"
+   },
+   "approval_accepted_at_collection": {
+      "message": "在 %{date} 接受"
+   },
+   "approval_accepted_at_token": {
+      "message": "在 %{date} 接受"
+   },
+   "approval_accepted_collection": {
+      "message": "Accepted collection"
+   },
+   "approval_accepted_token": {
+      "message": "Accepted token"
+   },
+   "approval_approve_all": {
+      "message": "接受所有"
+   },
+   "approval_approve_collection_many": {
+      "message": "批准来自 \"%{collection}\" 集合的传入代币"
+   },
+   "approval_approve_collection_one": {
+      "message": "批准来自 \"%{collection}\" 集合的传入代币"
+   },
+   "approval_approve_many": {
+      "message": "批准 %{count} 传入的代币"
+   },
+   "approval_approve_token": {
+      "message": "批准传入的代币\"%{name}\""
+   },
+   "approval_approve_two_collections": {
+      "message": "批准来自 \"%{collection1}\" 和 \"%{collection2}\" 集合的传入代币"
+   },
+   "approval_approve_two_tokens": {
+      "message": "批准传入的代币\"%{name1}\" 和 \"%{name2}\""
+   },
+   "approval_blacklisted_collection": {
+      "message": "黑名单集合"
+   },
+   "approval_blacklisted_token": {
+      "message": "黑名单代币"
+   },
+   "approval_decline": {
+      "message": "拒绝"
+   },
+   "approval_declined": {
+      "message": "已拒绝"
+   },
+   "approval_declined_at_collection": {
+      "message": "在 %{date} 拒绝"
+   },
+   "approval_declined_at_token": {
+      "message": "在 %{date} 拒绝"
+   },
+   "approval_details_collection": {
+      "message": "集合详情"
+   },
+   "approval_details_token": {
+      "message": "代币详细信息"
+   },
+   "approval_id_collection": {
+      "message": "集合ID"
+   },
+   "approval_id_token": {
+      "message": "代币ID"
+   },
+   "approval_manage_tokens": {
+      "message": "管理代币"
+   },
+   "approval_move_to_accepted": {
+      "message": "移至已接受"
+   },
+   "approval_move_to_accepted_collection": {
+      "message": "Show collection in wallet"
+   },
+   "approval_move_to_accepted_token": {
+      "message": "Show token in wallet"
+   },
+   "approval_move_to_declined": {
+      "message": "移至已拒绝"
+   },
+   "approval_move_to_declined_collection": {
+      "message": "Hide collection from wallet"
+   },
+   "approval_move_to_declined_token": {
+      "message": "Hide token from wallet"
+   },
+   "approval_name": {
+      "message": "名称"
+   },
+   "approval_pending": {
+      "message": "待定"
+   },
+   "approval_show_all": {
+      "message": "显示所有"
+   },
+   "approval_single_token": {
+      "message": "单一代币"
+   },
+   "approval_token_copied": {
+      "message": "代币ID已复制"
+   },
+   "approval_token_count_one": {
+      "message": "%{count} 代币"
+   },
+   "approval_token_count_other": {
+      "message": "%{count} 代币"
+   },
+   "approval_unverified_token": {
+      "message": "Unverified Token"
+   },
+   "approval_verify_collection": {
+      "message": "验证集合"
+   },
+   "approval_verify_description_collection": {
+      "message": "这些代币来自未知发行者。要检测伪造品，请使用发行者的官方来源验证集合ID。您稍后可以在设置中更改代币的可见性。"
+   },
+   "approval_verify_description_token": {
+      "message": "此代币来自未知发行者。要检测伪造品，请使用发行者的官方来源验证代币ID。您稍后可以在设置中更改代币的可见性。"
+   },
+   "approval_verify_token": {
+      "message": "验证代币"
+   },
+   "approval_whitelisted_collection": {
+      "message": "白名单集合"
+   },
+   "approval_whitelisted_token": {
+      "message": "白名单代币"
+   },
+   "aside_add_wallet": {
+      "message": "Add Wallet"
+   },
+   "aside_dashboard": {
+      "message": "Dashboard"
+   },
+   "aside_discover": {
+      "message": "Discover"
+   },
+   "aside_expires_on": {
+      "message": "It expires on %date%"
+   },
+   "aside_pro_subscription_is_active": {
+      "message": "Pro Subscription is active."
+   },
+   "aside_pro_trial_is_active": {
+      "message": "Pro Trial is active."
+   },
+   "aside_settings": {
+      "message": "Preferences"
+   },
+   "auth_failed": {
+      "message": "认证失败"
+   },
+   "auto": {
+      "message": "Auto"
+   },
+   "backup_check_caption": {
+      "message": "让我们看看是否全部正确。输入单词%{one}，%{two}和%{three}。"
+   },
+   "backup_check_done_button": {
+      "message": "完成"
+   },
+   "backup_check_title": {
+      "message": "备份检查"
+   },
+   "backup_screen_last_backup_time": {
+      "message": "上次备份 %{time}"
+   },
+   "backup_screen_manual_backup_on": {
+      "message": "手动备份开启"
+   },
+   "backup_screen_manual_button": {
+      "message": "手动备份"
+   },
+   "backup_screen_manual_caption": {
+      "message": "通过写下助记词以手动备份您的钱包。"
+   },
+   "backup_screen_manual_title": {
+      "message": "手动"
+   },
+   "backup_screen_show_recovery_phrase": {
+      "message": "显示恢复短语"
+   },
+   "backup_screen_title": {
+      "message": "备份"
+   },
+   "backup_warning_cancel_button": {
+      "message": "取消"
+   },
+   "backup_warning_caption": {
+      "message": "在查看您的助记词之前，请仔细阅读以下内容。"
+   },
+   "backup_warning_continue_button": {
+      "message": "继续"
+   },
+   "backup_warning_p1": {
+      "message": "切勿在Tonkeeper以外的任何其他地方输入您的助记词来访问您的钱包。"
+   },
+   "backup_warning_p2": {
+      "message": "Tonkeeper 支持人员永远不会要求您提供助记词。"
+   },
+   "backup_warning_p3": {
+      "message": "每一个知道您助记词的人都可以控制您的钱包。"
+   },
+   "backup_warning_title": {
+      "message": "请注意"
+   },
+   "balances_setup_wallet": {
+      "message": "注册钱包"
+   },
+   "battery_description_empty": {
+      "message": "发送代币和 NFT，用空的主账户支付质押操作费用。"
+   },
+   "battery_description_less_10": {
+      "message": "You have enough charge battery for less than 10 transactions."
+   },
+   "battery_description_other": {
+      "message": "您已有足够的电量以进行 %{cnt} 次交易"
+   },
+   "battery_description_other_few": {
+      "message": "Your battery has %{count} charges"
+   },
+   "battery_description_other_many": {
+      "message": "Your battery has %{count} charges"
+   },
+   "battery_description_other_one": {
+      "message": "Your battery has %{count} charge"
+   },
+   "battery_description_other_other": {
+      "message": "Your battery has %{count} charges"
+   },
+   "battery_ok": {
+      "message": "确定"
+   },
+   "battery_packages_buy": {
+      "message": "购买"
+   },
+   "battery_packages_disclaimer": {
+      "message": "这是估计的转账数量。您的某些交易可能会花费更多。"
+   },
+   "battery_packages_ok": {
+      "message": "确定"
+   },
+   "battery_packages_refilled": {
+      "message": "电池已充电"
+   },
+   "battery_packages_restore": {
+      "message": "Restore Purchases"
+   },
+   "battery_packages_subtitle_few": {
+      "message": "%{count} charges"
+   },
+   "battery_packages_subtitle_many": {
+      "message": "%{count} charges"
+   },
+   "battery_packages_subtitle_one": {
+      "message": "%{count} charge"
+   },
+   "battery_packages_subtitle_other": {
+      "message": "%{count} charges"
+   },
+   "battery_packages_title_large": {
+      "message": "Large"
+   },
+   "battery_packages_title_medium": {
+      "message": "Medium"
+   },
+   "battery_packages_title_small": {
+      "message": "Small"
+   },
+   "battery_promocode_apply": {
+      "message": "应用"
+   },
+   "battery_promocode_button": {
+      "message": "使用优惠码充值"
+   },
+   "battery_promocode_placeholder": {
+      "message": "优惠码"
+   },
+   "battery_promocode_success": {
+      "message": "电池已充电"
+   },
+   "battery_promocode_title": {
+      "message": "优惠码"
+   },
+   "battery_refilled": {
+      "message": "Battery refilled"
+   },
+   "battery_screen_title": {
+      "message": "电池"
+   },
+   "battery_send_widget_battery": {
+      "message": "Battery"
+   },
+   "battery_settings": {
+      "message": "电池"
+   },
+   "battery_title": {
+      "message": "Tonkeeper Battery"
+   },
+   "battery_transactions_charges_per_action_few": {
+      "message": "≈ %{count} charges per %{transactionName}"
+   },
+   "battery_transactions_charges_per_action_many": {
+      "message": "≈ %{count} charges per %{transactionName}"
+   },
+   "battery_transactions_charges_per_action_one": {
+      "message": "≈ %{count} charge per %{transactionName}"
+   },
+   "battery_transactions_charges_per_action_other": {
+      "message": "≈ %{count} charges per %{transactionName}"
+   },
+   "battery_transactions_description": {
+      "message": "Selected transactions will be paid by Tonkeeper Battery."
+   },
+   "battery_transactions_settings": {
+      "message": "Battery Settings"
+   },
+   "battery_transactions_supported": {
+      "message": "Supported transactions"
+   },
+   "battery_transactions_title": {
+      "message": "Transactions"
+   },
+   "battery_transactions_type_swap": {
+      "message": "swap"
+   },
+   "battery_transactions_type_transfer": {
+      "message": "transfer"
+   },
+   "battery_transactions_types_jetton": {
+      "message": "jetton transfers"
+   },
+   "battery_transactions_types_nft": {
+      "message": "NFT transfers"
+   },
+   "battery_transactions_types_swap": {
+      "message": "swaps"
+   },
+   "battery_transactions_types_ton": {
+      "message": "TON transfers"
+   },
+   "battery_transactions_will_be_paid": {
+      "message": "Will be paid: %{enabledTransactions}"
+   },
+   "biometry_android_face_recognition": {
+      "message": "面部识别"
+   },
+   "biometry_android_face_recognition_genitive": {
+      "message": "面部识别"
+   },
+   "biometry_android_face_recognition_instrumental": {
+      "message": "人脸识别"
+   },
+   "biometry_android_fingerprint": {
+      "message": "指纹"
+   },
+   "biometry_android_fingerprint_genitive": {
+      "message": "指纹"
+   },
+   "biometry_android_fingerprint_instrumental": {
+      "message": "指纹识别"
+   },
+   "biometry_default": {
+      "message": "生物识别"
+   },
+   "biometry_default_accusative": {
+      "message": "生物识别"
+   },
+   "biometry_default_genitive": {
+      "message": "生物识别"
+   },
+   "biometry_default_instrumental": {
+      "message": "生物识别"
+   },
+   "biometry_ios_face_recognition": {
+      "message": "Face ID"
+   },
+   "biometry_ios_face_recognition_genitive": {
+      "message": "Face ID"
+   },
+   "biometry_ios_face_recognition_instrumental": {
+      "message": "Face ID"
+   },
+   "biometry_ios_fingerprint": {
+      "message": "Touch ID"
+   },
+   "biometry_ios_fingerprint_genitive": {
+      "message": "Touch ID"
+   },
+   "biometry_ios_fingerprint_instrumental": {
+      "message": "Touch ID"
+   },
+   "browser_about_dapps_caption": {
+      "message": "探索可以使用Tonkeeper进行登录和支付的应用和服务。"
+   },
+   "browser_about_dapps_learn_more": {
+      "message": "了解更多"
+   },
+   "browser_about_dapps_title": {
+      "message": "使用Tonkeeper与所有TON应用和服务"
+   },
+   "browser_actions_copy_link": {
+      "message": "复制链接"
+   },
+   "browser_actions_disconnect": {
+      "message": "断开连接"
+   },
+   "browser_actions_mute": {
+      "message": "静音"
+   },
+   "browser_actions_refresh": {
+      "message": "刷新"
+   },
+   "browser_actions_share": {
+      "message": "分享"
+   },
+   "browser_apps_all": {
+      "message": "All"
+   },
+   "browser_connected": {
+      "message": "Connected"
+   },
+   "browser_connected_empty_text": {
+      "message": "Explore apps and services in Tonkeeper browser."
+   },
+   "browser_connected_empty_title": {
+      "message": "Connected apps will be shown here"
+   },
+   "browser_connected_title": {
+      "message": "已连接"
+   },
+   "browser_empty_search": {
+      "message": "没有搜索到结果"
+   },
+   "browser_explore": {
+      "message": "Explore"
+   },
+   "browser_explore_all": {
+      "message": "探索所有"
+   },
+   "browser_more_description": {
+      "message": "市场、交易所等"
+   },
+   "browser_more_title": {
+      "message": "探索所有服务"
+   },
+   "browser_open_link": {
+      "message": "打开链接"
+   },
+   "browser_popular_title": {
+      "message": "热门"
+   },
+   "browser_remove_alert_approve_button": {
+      "message": "移除"
+   },
+   "browser_remove_alert_title": {
+      "message": "移除“%{name}”？"
+   },
+   "browser_search_label": {
+      "message": "搜索或输入地址"
+   },
+   "browser_start_typing": {
+      "message": "输入地址或在网络上搜索"
+   },
+   "browser_title": {
+      "message": "浏览器"
+   },
+   "browser_web_search_title": {
+      "message": "%{searchEngine} 搜索"
+   },
+   "buy_ton_subtitle": {
+      "message": "Instantly with a bank card"
+   },
+   "buy_ton_title": {
+      "message": "Buy TON"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "chart_check_connection": {
+      "message": "请检查您的连接并再试一次。"
+   },
+   "chart_no_internet": {
+      "message": "无网络连接"
+   },
+   "chart_periods_1D": {
+      "message": "天"
+   },
+   "chart_periods_1H": {
+      "message": "小时"
+   },
+   "chart_periods_1M": {
+      "message": "月"
+   },
+   "chart_periods_1Y": {
+      "message": "年"
+   },
+   "chart_periods_6M": {
+      "message": "6个月"
+   },
+   "chart_periods_7D": {
+      "message": "周"
+   },
+   "chart_price": {
+      "message": "价格"
+   },
+   "check_words_caption": {
+      "message": "为了检查您是否正确地写下了您的恢复短语，请输入第%{wordNum1}、%{wordNum2}和%{wordNum3}个词。"
+   },
+   "check_words_success": {
+      "message": "恭喜！您已经设置了您的钱包"
+   },
+   "check_words_title": {
+      "message": "让我们检查一下"
+   },
+   "choose_country_auto": {
+      "message": "Auto"
+   },
+   "choose_country_cancel": {
+      "message": "Cancel"
+   },
+   "choose_country_empty_placeholder": {
+      "message": "Your search returned no results"
+   },
+   "choose_country_search": {
+      "message": "Search"
+   },
+   "choose_country_title": {
+      "message": "选择您的国家"
+   },
+   "choose_currency_currencies_AED": {
+      "message": "阿联酋迪拉姆"
+   },
+   "choose_currency_currencies_BDT": {
+      "message": "孟加拉塔卡"
+   },
+   "choose_currency_currencies_BRL": {
+      "message": "巴西雷亚尔"
+   },
+   "choose_currency_currencies_BYN": {
+      "message": "白俄罗斯卢布"
+   },
+   "choose_currency_currencies_CAD": {
+      "message": "加拿大元"
+   },
+   "choose_currency_currencies_CHF": {
+      "message": "瑞士法郎"
+   },
+   "choose_currency_currencies_CNY": {
+      "message": "人民币"
+   },
+   "choose_currency_currencies_EUR": {
+      "message": "欧元"
+   },
+   "choose_currency_currencies_GBP": {
+      "message": "英镑"
+   },
+   "choose_currency_currencies_GEL": {
+      "message": "格鲁吉亚拉里"
+   },
+   "choose_currency_currencies_IDR": {
+      "message": "印尼卢比"
+   },
+   "choose_currency_currencies_ILS": {
+      "message": "以色列谢克尔"
+   },
+   "choose_currency_currencies_INR": {
+      "message": "印度卢比"
+   },
+   "choose_currency_currencies_IRR": {
+      "message": "伊朗里亚尔"
+   },
+   "choose_currency_currencies_JPY": {
+      "message": "日元"
+   },
+   "choose_currency_currencies_KRW": {
+      "message": "韩元"
+   },
+   "choose_currency_currencies_KZT": {
+      "message": "哈萨克斯坦坚戈"
+   },
+   "choose_currency_currencies_NGN": {
+      "message": "尼日利亚奈拉"
+   },
+   "choose_currency_currencies_RUB": {
+      "message": "俄罗斯卢布"
+   },
+   "choose_currency_currencies_THB": {
+      "message": "泰铢"
+   },
+   "choose_currency_currencies_TON": {
+      "message": "Toncoin"
+   },
+   "choose_currency_currencies_TRY": {
+      "message": "土耳其里拉"
+   },
+   "choose_currency_currencies_UAH": {
+      "message": "乌克兰格里夫纳"
+   },
+   "choose_currency_currencies_USD": {
+      "message": "美元"
+   },
+   "choose_currency_currencies_UZS": {
+      "message": "乌兹别克苏姆"
+   },
+   "choose_currency_currencies_VND": {
+      "message": "越南盾"
+   },
+   "choose_currency_header_title": {
+      "message": "主要货币"
+   },
+   "choose_wallets_subtitle": {
+      "message": "选择您想添加的钱包。"
+   },
+   "choose_wallets_title": {
+      "message": "选择钱包"
+   },
+   "choose_wallets_tokens": {
+      "message": "代币"
+   },
+   "close": {
+      "message": "Close"
+   },
+   "confirm": {
+      "message": "确认"
+   },
+   "confirmSendModal_network_fee": {
+      "message": "Network fee"
+   },
+   "confirmSendModal_refund": {
+      "message": "Refund"
+   },
+   "confirmSendModal_title": {
+      "message": "Confirm action"
+   },
+   "confirmSendModal_title_multiwallets": {
+      "message": "Action for %{walletName}"
+   },
+   "confirmSendModal_to_your_address": {
+      "message": "To your address"
+   },
+   "confirmSendModal_transaction_type_burn": {
+      "message": "Burn"
+   },
+   "confirmSendModal_transaction_type_receive": {
+      "message": "Receive"
+   },
+   "confirmSendModal_transaction_type_send": {
+      "message": "Send"
+   },
+   "confirmSendModal_wallet": {
+      "message": "钱包："
+   },
+   "confirmSendModal_will_be_paid_with_battery": {
+      "message": "将使用电池进行支付"
+   },
+   "confirm_modal_transfer": {
+      "message": "Transfer"
+   },
+   "confirm_renew_all_domains_title": {
+      "message": "Confirm action"
+   },
+   "confirm_sending_amount": {
+      "message": "金额"
+   },
+   "confirm_sending_fee": {
+      "message": "手续费"
+   },
+   "confirm_sending_inactive_warn_about": {
+      "message": "你应该做什么"
+   },
+   "confirm_sending_inactive_warn_description": {
+      "message": "如果您期望区块链发生奇迹，请不要继续。不会的。真的不会的。"
+   },
+   "confirm_sending_inactive_warn_title": {
+      "message": "非活跃合约"
+   },
+   "confirm_sending_liquid_warn_description": {
+      "message": "You will no longer receive rewards from the sended Staked TON. The new owner will begin to receive rewards."
+   },
+   "confirm_sending_liquid_warn_title": {
+      "message": "Note"
+   },
+   "confirm_sending_message": {
+      "message": "Comment"
+   },
+   "confirm_sending_method_title": {
+      "message": "将你的资金发送到%{name}?"
+   },
+   "confirm_sending_recipient": {
+      "message": "接收者"
+   },
+   "confirm_sending_recipient_address": {
+      "message": "接收者地址"
+   },
+   "confirm_sending_sent_caption_btc": {
+      "message": "你的交易已经发送到网络，将在一小时内处理。"
+   },
+   "confirm_sending_sent_caption_other": {
+      "message": "你的交易已经发送到网络，将在一分钟内处理。"
+   },
+   "confirm_sending_sent_caption_ton": {
+      "message": "你的交易已经发送到网络，将在几秒钟内处理。"
+   },
+   "confirm_sending_sent_jetton_title": {
+      "message": "已发送代币"
+   },
+   "confirm_sending_sent_title": {
+      "message": "已发送币种"
+   },
+   "confirm_sending_submit": {
+      "message": "确认并发送"
+   },
+   "confirm_sending_title": {
+      "message": "确认发送"
+   },
+   "confirm_unlink": {
+      "message": "Confirm unlink"
+   },
+   "connect_telegram": {
+      "message": "Connect Telegram"
+   },
+   "continue": {
+      "message": "继续"
+   },
+   "copied": {
+      "message": "复制"
+   },
+   "copy_error_log": {
+      "message": "复制错误指令"
+   },
+   "country": {
+      "message": "Country"
+   },
+   "create_pin_current_title": {
+      "message": "输入当前的密码"
+   },
+   "create_pin_new_title": {
+      "message": "创建新密码"
+   },
+   "create_pin_repeat_title": {
+      "message": "重新输入密码"
+   },
+   "create_wallet_caption": {
+      "message": "我们强烈建议您“写下”恢复短语，因为这是访问和恢复您的钱包的唯一方式！为防失去您的设备，不要通过电子邮件发送给自己或截屏保存；也不要将其上传至在线聊天软件！离线保管更安全。"
+   },
+   "create_wallet_continue_button": {
+      "message": "继续"
+   },
+   "create_wallet_generated": {
+      "message": "恭喜！您的钱包已成功创建！"
+   },
+   "create_wallet_generating": {
+      "message": "正在生成钱包..."
+   },
+   "create_wallet_title": {
+      "message": "拿一支笔和一张纸"
+   },
+   "customize": {
+      "message": "自定义"
+   },
+   "customize_modal_save": {
+      "message": "保存"
+   },
+   "customize_modal_subtitle": {
+      "message": "钱包名称和图标将存储在您的本机设备。"
+   },
+   "customize_modal_title": {
+      "message": "自定义您的钱包"
+   },
+   "customize_modal_wallet_name": {
+      "message": "钱包名称"
+   },
+   "dashboard_column_name": {
+      "message": "Name"
+   },
+   "dashboard_manage_modal_title": {
+      "message": "Dashboard"
+   },
+   "decryption_error": {
+      "message": "解密错误"
+   },
+   "delete": {
+      "message": "Delete"
+   },
+   "deploy_contract_button": {
+      "message": "确认并部署"
+   },
+   "deploy_contract_title": {
+      "message": "部署合同"
+   },
+   "disable_nft_marketplace_banner_description": {
+      "message": "收集和交换。"
+   },
+   "dns_address_linked": {
+      "message": "地址已链接"
+   },
+   "dns_address_unlinked": {
+      "message": "地址已取消链接"
+   },
+   "dns_addresses_few": {
+      "message": "%{count} addresses"
+   },
+   "dns_addresses_many": {
+      "message": "%{count} addresses"
+   },
+   "dns_addresses_one": {
+      "message": "%{count} address"
+   },
+   "dns_addresses_other": {
+      "message": "%{count} addresses"
+   },
+   "dns_alert_expiring_many_few": {
+      "message": "You have %{count} expiring domains. Renew all until %{untilDate}."
+   },
+   "dns_alert_expiring_many_many": {
+      "message": "You have %{count} expiring domains. Renew all until %{untilDate}."
+   },
+   "dns_alert_expiring_many_one": {
+      "message": "You have %{count} expiring domain. Renew all until %{untilDate}."
+   },
+   "dns_alert_expiring_many_other": {
+      "message": "You have %{count} expiring domains. Renew all until %{untilDate}."
+   },
+   "dns_alert_expiring_one": {
+      "message": "%{domain} expires in %{count} days. Renew it until %{untilDate}."
+   },
+   "dns_current_address": {
+      "message": "您当前的地址"
+   },
+   "dns_expiration_date": {
+      "message": "到期日期"
+   },
+   "dns_link_title": {
+      "message": "确认交易"
+   },
+   "dns_linked_with_another_address_warn": {
+      "message": "The domain is not linked to your current address. Be careful with transactions to this domain."
+   },
+   "dns_on_sale_text": {
+      "message": "域名现在在市场上出售。为了转移，你首先应该从销售中移除它。"
+   },
+   "dns_renew_all_until_btn": {
+      "message": "Renew all until %{untilDate}"
+   },
+   "dns_renew_in_progress_btn": {
+      "message": "正在进行域名续期..."
+   },
+   "dns_renew_toast_success": {
+      "message": "域名已续期1年"
+   },
+   "dns_renew_until_btn": {
+      "message": "续期至 %{untilDate}"
+   },
+   "dns_renew_valid_caption_one": {
+      "message": "在 %{count} 天内到期"
+   },
+   "dns_renew_valid_caption_other": {
+      "message": "在 %{count} 天内到期"
+   },
+   "dns_replace_button": {
+      "message": "替换"
+   },
+   "dns_replace_description": {
+      "message": "添加将与{{domain}}链接的钱包地址。"
+   },
+   "dns_replace_save": {
+      "message": "保存"
+   },
+   "dns_unlink_title": {
+      "message": "确认取消链接"
+   },
+   "dns_wallet_address": {
+      "message": "钱包地址"
+   },
+   "domains_renewed": {
+      "message": "Domains renewed"
+   },
+   "edit_coins_add": {
+      "message": "添加"
+   },
+   "edit_coins_added": {
+      "message": "已添加"
+   },
+   "edit_coins_added_toast": {
+      "message": "已添加"
+   },
+   "edit_coins_hide": {
+      "message": "隐藏"
+   },
+   "edit_coins_title": {
+      "message": "添加加密货币"
+   },
+   "encryptedComments_encryptedComment": {
+      "message": "Encrypted comment"
+   },
+   "encryptedComments_encryptedCommentModal_button": {
+      "message": "Decrypt the comment"
+   },
+   "encryptedComments_encryptedCommentModal_checkboxLabel": {
+      "message": "Do not show again"
+   },
+   "encryptedComments_encryptedCommentModal_description": {
+      "message": "The comment is encrypted by sender and can only be decrypted by you. Please be careful with the content and beware of scams."
+   },
+   "encryptedComments_encryptedCommentModal_title": {
+      "message": "Encrypted comment"
+   },
+   "encryptedComments_show": {
+      "message": "Show"
+   },
+   "enter_password": {
+      "message": "Enter password"
+   },
+   "error_network": {
+      "message": "网络错误"
+   },
+   "error_occurred": {
+      "message": "发生了一个错误"
+   },
+   "exchange_method_dont_show_again": {
+      "message": "不再显示"
+   },
+   "exchange_method_open_warning": {
+      "message": "您正在打开一个非Tonkeeper操作的外部应用。"
+   },
+   "exchange_modal_buy": {
+      "message": "Buy"
+   },
+   "exchange_modal_hide": {
+      "message": "隐藏"
+   },
+   "exchange_modal_other_ways_to_buy": {
+      "message": "其他购买方式"
+   },
+   "exchange_modal_sell": {
+      "message": "Sell"
+   },
+   "exchange_modal_show_all": {
+      "message": "显示所有"
+   },
+   "exchange_modal_title": {
+      "message": "购买或出售"
+   },
+   "exchange_not_exists": {
+      "message": "Invalid exchange ID"
+   },
+   "exchange_other_ways": {
+      "message": "其他购买或出售TON的方式"
+   },
+   "exchange_telegram_bot": {
+      "message": "TELEGRAM机器人"
+   },
+   "exchange_title": {
+      "message": "购买TON"
+   },
+   "expiring_domains": {
+      "message": "Expiring domains"
+   },
+   "finish_setup_backup": {
+      "message": "备份钱包助记词"
+   },
+   "finish_setup_done_button": {
+      "message": "完成"
+   },
+   "finish_setup_enable_notifications": {
+      "message": "启用交易通知"
+   },
+   "finish_setup_header_title": {
+      "message": "完成设置"
+   },
+   "finish_setup_use_biometry": {
+      "message": "使用 %{name} 批准交易"
+   },
+   "form_optional_indicator": {
+      "message": "可选"
+   },
+   "import_add_wallet": {
+      "message": "添加钱包"
+   },
+   "import_add_wallet_description": {
+      "message": "创建一个新钱包或添加现有钱包。"
+   },
+   "import_existing_wallet": {
+      "message": "Existing Wallet"
+   },
+   "import_existing_wallet_description": {
+      "message": "使用24个助记词导入钱包"
+   },
+   "import_new_wallet": {
+      "message": "New Wallet"
+   },
+   "import_new_wallet_description": {
+      "message": "Create new wallet"
+   },
+   "import_signer": {
+      "message": "Pair Signer"
+   },
+   "import_signer_description": {
+      "message": "A higher level of control and security"
+   },
+   "import_wallet_caption": {
+      "message": "为了恢复到您的钱包，请输入创建钱包时给您的24个助记词。"
+   },
+   "import_wallet_reset_caption": {
+      "message": "请恢复您的钱包\n通过输入创建钱包时写下的24个助记词。"
+   },
+   "import_wallet_title": {
+      "message": "输入您的\n恢复短语"
+   },
+   "import_wallet_wrong_words_err": {
+      "message": "短语不正确"
+   },
+   "info_about_inactive_back": {
+      "message": "返回"
+   },
+   "info_about_inactive_desc1": {
+      "message": "Tonkeeper不知道这个地址是钱包还是智能合约。"
+   },
+   "info_about_inactive_desc2": {
+      "message": "如果你只是想存钱到一个钱包 - 你可以继续。"
+   },
+   "info_about_inactive_desc3_1": {
+      "message": "如果你期待从一个智能合约中自动执行操作，"
+   },
+   "info_about_inactive_desc3_2": {
+      "message": "— 你的转账可能会停在那个地址上。"
+   },
+   "info_about_inactive_desc3_bold": {
+      "message": " ！不要继续！ "
+   },
+   "info_about_inactive_title": {
+      "message": "非活跃合约"
+   },
+   "intro_continue_btn": {
+      "message": "开始"
+   },
+   "intro_item1_caption": {
+      "message": "得益于 The Open Network 的独特架构，TON 交易可在数秒内完成结算。"
+   },
+   "intro_item1_title": {
+      "message": "世界级速度"
+   },
+   "intro_item2_caption": {
+      "message": "Tonkeeper 将您的加密密钥存储在您的设备上。所有交易都通过去中心化协议执行，因此您的加密货币绝不会落入中心化交易所的手中。"
+   },
+   "intro_item2_title": {
+      "message": "端对端安全性能"
+   },
+   "intro_item3_caption": {
+      "message": "-"
+   },
+   "intro_item3_title": {
+      "message": "-"
+   },
+   "intro_title": {
+      "message": "欢迎"
+   },
+   "it_expires_on": {
+      "message": "It expires on"
+   },
+   "jetton_id": {
+      "message": "代币ID: %{jettonAddress}"
+   },
+   "jetton_id_copied": {
+      "message": "代币ID已复制"
+   },
+   "jetton_locked_till": {
+      "message": "Locked until %{date}"
+   },
+   "jetton_name": {
+      "message": "%{name} 代币"
+   },
+   "jetton_open_explorer": {
+      "message": "查看详情"
+   },
+   "jetton_price": {
+      "message": "价格:"
+   },
+   "jetton_token": {
+      "message": "代币"
+   },
+   "jettons_list_title": {
+      "message": "代币"
+   },
+   "jettons_manage_tokens": {
+      "message": "管理代币"
+   },
+   "jettons_show_jettons": {
+      "message": "在钱包中显示代币"
+   },
+   "language_language_alert_cancel": {
+      "message": "Cancel"
+   },
+   "language_language_alert_open": {
+      "message": "Settings"
+   },
+   "language_language_alert_title": {
+      "message": "To change the language of the app, go to device Settings"
+   },
+   "language_languagesList_en": {
+      "message": "English"
+   },
+   "language_languagesList_ru": {
+      "message": "Russian"
+   },
+   "language_languagesList_system": {
+      "message": "System"
+   },
+   "language_languagesList_tr": {
+      "message": "Turkish"
+   },
+   "language_languagesList_zh_Hans": {
+      "message": "Chinese"
+   },
+   "language_list_item_title": {
+      "message": "Language"
+   },
+   "language_list_item_value": {
+      "message": "中文"
+   },
+   "language_title": {
+      "message": "Language"
+   },
+   "later": {
+      "message": "稍后"
+   },
+   "ledger_choose_wallets": {
+      "message": "Choose Wallets"
+   },
+   "ledger_connect_header": {
+      "message": "Connect Ledger"
+   },
+   "ledger_continue_with_ledger": {
+      "message": "Continue with Ledger"
+   },
+   "ledger_operation_not_supported": {
+      "message": "The operation is not available for Ledger wallets. Select another wallet and try again."
+   },
+   "ledger_pair_subtitle": {
+      "message": "A higher level of security with hardware wallet"
+   },
+   "ledger_pair_title": {
+      "message": "Pair with Ledger"
+   },
+   "ledger_steps_confirm_tx": {
+      "message": "Confirm your transaction on Ledger"
+   },
+   "ledger_steps_connect": {
+      "message": "Connect Ledger to your device"
+   },
+   "ledger_steps_install_ton": {
+      "message": "Install TON App  "
+   },
+   "ledger_steps_open_ton": {
+      "message": "Unlock it and open TON App"
+   },
+   "legal_font_license": {
+      "message": "Montserrat字体"
+   },
+   "legal_header_title": {
+      "message": "法律"
+   },
+   "legal_licenses_title": {
+      "message": "许可证"
+   },
+   "legal_privacy": {
+      "message": "隐私政策"
+   },
+   "legal_terms": {
+      "message": "服务条款"
+   },
+   "link_copied": {
+      "message": "链接已复制"
+   },
+   "loading": {
+      "message": "加载"
+   },
+   "logout_on_unlock_many": {
+      "message": "This will erase keys to all your wallets. Make sure you have backed up your secret recovery phrases."
+   },
+   "logout_on_unlock_one": {
+      "message": "This will erase keys to the wallet. Make sure you have backed up your secret recovery phrase."
+   },
+   "manage_other_coins": {
+      "message": "管理我的代币"
+   },
+   "migration_cancel_btn": {
+      "message": "稍后升级"
+   },
+   "migration_caption": {
+      "message": "Tonkeeper引入了支持订阅付款的新钱包格式。您的余额将转移到新地址。您的恢复短语将保持不变。"
+   },
+   "migration_failed": {
+      "message": "迁移失败。无法转移您的余额。"
+   },
+   "migration_fee_info": {
+      "message": "网络费用 ≈%{tonFee} TON (%{fiatFee})"
+   },
+   "migration_in_progress": {
+      "message": "正在进行到钱包v4的迁移"
+   },
+   "migration_migrate_btn": {
+      "message": "升级钱包"
+   },
+   "migration_new_wallet": {
+      "message": "新地址"
+   },
+   "migration_old_wallet": {
+      "message": "旧地址"
+   },
+   "migration_subtitle": {
+      "message": "请解锁钱包以继续。"
+   },
+   "migration_title": {
+      "message": "升级您的钱包"
+   },
+   "migration_with_biometry": {
+      "message": "继续 %{type}"
+   },
+   "migration_with_passcode": {
+      "message": "输入密码"
+   },
+   "multi_send_about_w5": {
+      "message": "About W5"
+   },
+   "multi_send_add_more": {
+      "message": "Add More"
+   },
+   "multi_send_continue_with_pro": {
+      "message": "Continue with Pro"
+   },
+   "multi_send_delete_description": {
+      "message": "This action is irreversible, and all data will be lost."
+   },
+   "multi_send_delete_list": {
+      "message": "Delete List"
+   },
+   "multi_send_discard_and_close": {
+      "message": "Discard and Close"
+   },
+   "multi_send_edit": {
+      "message": "Edit"
+   },
+   "multi_send_edit_list_name": {
+      "message": "Edit List Name"
+   },
+   "multi_send_enter_a_name": {
+      "message": "Enter a new name for your list:"
+   },
+   "multi_send_header": {
+      "message": "New Multi Send"
+   },
+   "multi_send_insufficient_balance": {
+      "message": "Insufficient balance"
+   },
+   "multi_send_list": {
+      "message": "List"
+   },
+   "multi_send_maximum_255_reached": {
+      "message": "Maximum 255 fields reached"
+   },
+   "multi_send_maximum_reached": {
+      "message": "Maximum reached. Up to 255 fields with W5 wallet version"
+   },
+   "multi_send_new_list": {
+      "message": "New List"
+   },
+   "multi_send_remaining": {
+      "message": "Remaining"
+   },
+   "multi_send_save_as_new": {
+      "message": "Save as New"
+   },
+   "multi_send_save_description": {
+      "message": "Save the list with addresses, amounts, and comments for future use."
+   },
+   "multi_send_save_list": {
+      "message": "Save List"
+   },
+   "multi_send_save_title": {
+      "message": "Save this List?"
+   },
+   "multi_send_show_all": {
+      "message": "Show all"
+   },
+   "multi_send_switch_to_w5": {
+      "message": "Switch to W5"
+   },
+   "multi_send_update_description": {
+      "message": "Update the information in the current list."
+   },
+   "multi_send_wallets": {
+      "message": "wallets"
+   },
+   "multi_send_will_be_sent": {
+      "message": "Will be sent"
+   },
+   "nft_about_collection": {
+      "message": "About collection"
+   },
+   "nft_about_dns": {
+      "message": "TON DNS 是一项服务，允许用户为加密钱包、智能合约和网站分配人类可读的名称。\n\n 使用 TON DNS，像访问互联网上一样访问去中心化服务的网站。"
+   },
+   "nft_browse_markets": {
+      "message": "浏览市场"
+   },
+   "nft_chain": {
+      "message": "链"
+   },
+   "nft_change_owner_title": {
+      "message": "更改集合所有者"
+   },
+   "nft_change_theme": {
+      "message": "更改主题"
+   },
+   "nft_collection": {
+      "message": "收藏"
+   },
+   "nft_collection_name": {
+      "message": "集合名称"
+   },
+   "nft_confirm_operation": {
+      "message": "确认"
+   },
+   "nft_contract_address": {
+      "message": "合约地址"
+   },
+   "nft_deploy_collection_title": {
+      "message": "创建NFT集合"
+   },
+   "nft_details": {
+      "message": "详细信息"
+   },
+   "nft_diamonds_description": {
+      "message": "TON Diamonds拥有改变你的Tonkeeper钱包主题并使其与你的NFT颜色相匹配的力量。"
+   },
+   "nft_empty_description": {
+      "message": "Buy, sell, exchange and collect."
+   },
+   "nft_empty_go_discover_button": {
+      "message": "Explore apps and services in Discover"
+   },
+   "nft_empty_header": {
+      "message": "Your purchases will be shown here"
+   },
+   "nft_features": {
+      "message": "特点"
+   },
+   "nft_fee": {
+      "message": "费用"
+   },
+   "nft_fee_and_royalties": {
+      "message": "费用 & 版权"
+   },
+   "nft_hide_details": {
+      "message": "隐藏详情"
+   },
+   "nft_item_deploy_title": {
+      "message": "Mint NFT"
+   },
+   "nft_item_name": {
+      "message": "NFT名称"
+   },
+   "nft_link_domain_button": {
+      "message": "链接域名"
+   },
+   "nft_link_domain_caption": {
+      "message": "链接域名后，你将能够转移它并使用它作为你的地址的别名。"
+   },
+   "nft_link_domain_mismatch_warn": {
+      "message": "域名未链接到你当前的地址。对此域的交易要小心。"
+   },
+   "nft_link_username_button": {
+      "message": "链接名称"
+   },
+   "nft_link_username_caption": {
+      "message": "链接名称后，你将能够转移它并使用它作为你的地址的别名。"
+   },
+   "nft_link_username_mismatch_warn": {
+      "message": "名称未链接到你当前的地址。对此名字的交易要小心。"
+   },
+   "nft_marketplace_address": {
+      "message": "市场"
+   },
+   "nft_marketplace_banner_description": {
+      "message": "购买、出售、收集和交换。"
+   },
+   "nft_marketplace_banner_title": {
+      "message": "您的NFT代币将存储在这里"
+   },
+   "nft_marketplaces": {
+      "message": "发现"
+   },
+   "nft_marketplaces_title": {
+      "message": "NFT市场"
+   },
+   "nft_metadata": {
+      "message": "元数据"
+   },
+   "nft_more": {
+      "message": "更多"
+   },
+   "nft_new_owner_address": {
+      "message": "新所有者地址"
+   },
+   "nft_on_sale": {
+      "message": "正在出售"
+   },
+   "nft_on_sale_text": {
+      "message": "NFT现在在市场上出售。为了转移，你首先应该从销售中移除它。"
+   },
+   "nft_open_in_marketplace": {
+      "message": "在NFT市场上查看"
+   },
+   "nft_operation_success": {
+      "message": "完成"
+   },
+   "nft_operations_expired": {
+      "message": "请求超时，请重试"
+   },
+   "nft_owner_address": {
+      "message": "所有者"
+   },
+   "nft_price": {
+      "message": "价格"
+   },
+   "nft_proceeds": {
+      "message": "您的收益"
+   },
+   "nft_properties": {
+      "message": "属性"
+   },
+   "nft_royalty": {
+      "message": "版税"
+   },
+   "nft_royalty_address": {
+      "message": "版税地址"
+   },
+   "nft_sale_cancel_title": {
+      "message": "取消出售"
+   },
+   "nft_sale_place_title": {
+      "message": "出售NFT"
+   },
+   "nft_show_details": {
+      "message": "显示详情"
+   },
+   "nft_single_nft": {
+      "message": "单一NFT"
+   },
+   "nft_standard": {
+      "message": "代币标准"
+   },
+   "nft_title": {
+      "message": "NFTs"
+   },
+   "nft_token_id": {
+      "message": "代币ID"
+   },
+   "nft_transaction_head_placeholder": {
+      "message": "NFT"
+   },
+   "nft_transfer_comment": {
+      "message": "评论"
+   },
+   "nft_transfer_confirm_fee_label": {
+      "message": "Fee"
+   },
+   "nft_transfer_confirm_fee_refund_label": {
+      "message": "Refund"
+   },
+   "nft_transfer_confirm_fee_value": {
+      "message": "≈ %{value} TON"
+   },
+   "nft_transfer_description": {
+      "message": "NFT将发送到此地址。在向其他用户发送NFT时要小心。"
+   },
+   "nft_transfer_dns": {
+      "message": "转移"
+   },
+   "nft_transfer_nft": {
+      "message": "转移"
+   },
+   "nft_transfer_recipient": {
+      "message": "接收者"
+   },
+   "nft_transfer_title": {
+      "message": "转移NFT"
+   },
+   "nft_unlink_domain_button": {
+      "message": "已与{{address}}链接"
+   },
+   "nft_unnamed_collection": {
+      "message": "未命名的收藏"
+   },
+   "nft_view_in_explorer": {
+      "message": "在浏览器中查看"
+   },
+   "nokyc": {
+      "message": "no KYC"
+   },
+   "notification_switch_description": {
+      "message": "当您收到TON、代币和NFT时获得通知。来自已连接应用的通知。"
+   },
+   "notifications_alert_cancel": {
+      "message": "取消"
+   },
+   "notifications_alert_description": {
+      "message": "通知中的链接地址与应用地址不匹配。"
+   },
+   "notifications_alert_open": {
+      "message": "仍然打开"
+   },
+   "notifications_alert_title": {
+      "message": "您确定要打开外部链接吗？"
+   },
+   "notifications_allow_notifications": {
+      "message": "允许通知"
+   },
+   "notifications_apps": {
+      "message": "应用"
+   },
+   "notifications_apps_description": {
+      "message": "在您的活动中来自已连接的应用的通知"
+   },
+   "notifications_disabled_action": {
+      "message": "打开设置"
+   },
+   "notifications_disabled_description": {
+      "message": "您在手机设置中关闭了通知。要激活通知，请转到此设备的设置。"
+   },
+   "notifications_disabled_title": {
+      "message": "通知已禁用"
+   },
+   "notifications_disconnect_app": {
+      "message": "断开%{app_name}连接"
+   },
+   "notifications_disconnected_app": {
+      "message": "已断开应用"
+   },
+   "notifications_earlier": {
+      "message": "早些时候"
+   },
+   "notifications_from_connected": {
+      "message": "来自已连接的服务"
+   },
+   "notifications_mute_notifications": {
+      "message": "静音通知"
+   },
+   "notifications_muted": {
+      "message": "已静音"
+   },
+   "notifications_not_supported": {
+      "message": "您的设备不支持通知"
+   },
+   "notifications_notifications": {
+      "message": "通知"
+   },
+   "notifications_placeholder_description": {
+      "message": "在Tonkeeper浏览器中探索应用和服务。"
+   },
+   "notifications_placeholder_title": {
+      "message": "通知将在此处显示"
+   },
+   "notifications_report": {
+      "message": "报告"
+   },
+   "notifications_switch_title": {
+      "message": "推送通知"
+   },
+   "notifications_title": {
+      "message": "通知"
+   },
+   "notify_connection_err_caption": {
+      "message": "%{host} 没有响应，请稍后重试"
+   },
+   "notify_connection_err_caption_few": {
+      "message": "%{hosts} 和 %{lastHost} 没有响应，请稍后重试"
+   },
+   "notify_connection_err_title": {
+      "message": "连接服务器失败"
+   },
+   "notify_incorrect_time_err_caption": {
+      "message": "请在设备设置中启用自动时间和日期。如果不自动设置时间，可能会影响资金转账。"
+   },
+   "notify_incorrect_time_err_title": {
+      "message": "时间和日期不正确"
+   },
+   "notify_no_signal_caption": {
+      "message": "请确认你的网络连接"
+   },
+   "notify_no_signal_title": {
+      "message": "没有信号"
+   },
+   "old_wallet_error": {
+      "message": "Use wallet with v4R2 version"
+   },
+   "page_header_history": {
+      "message": "History"
+   },
+   "page_header_purchases": {
+      "message": "Purchases"
+   },
+   "passcode_changed": {
+      "message": "密码已更改"
+   },
+   "paste": {
+      "message": "粘贴"
+   },
+   "pin_enter_faceid_err": {
+      "message": "生物特征检查失败"
+   },
+   "pin_enter_skip_faceid_err": {
+      "message": "需要生物特征"
+   },
+   "platform_android_capitalized_face_recognition": {
+      "message": "面部识别"
+   },
+   "platform_android_capitalized_fingerprint": {
+      "message": "指纹"
+   },
+   "platform_android_face_recognition": {
+      "message": "面部识别"
+   },
+   "platform_android_face_recognition_genitive": {
+      "message": "面部识别"
+   },
+   "platform_android_fingerprint": {
+      "message": "指纹"
+   },
+   "platform_android_fingerprint_genitive": {
+      "message": "指纹"
+   },
+   "platform_ios_capitalized_face_recognition": {
+      "message": "Face ID"
+   },
+   "platform_ios_capitalized_fingerprint": {
+      "message": "Touch ID"
+   },
+   "platform_ios_face_recognition": {
+      "message": "Face ID"
+   },
+   "platform_ios_face_recognition_genitive": {
+      "message": "Face ID"
+   },
+   "platform_ios_fingerprint": {
+      "message": "Touch ID"
+   },
+   "platform_ios_fingerprint_genitive": {
+      "message": "Touch ID"
+   },
+   "preferences_aside_dev_menu": {
+      "message": "Dev Menu"
+   },
+   "preferences_aside_faq": {
+      "message": "FAQ"
+   },
+   "preferences_aside_sign_out": {
+      "message": "Sign Out"
+   },
+   "preferences_aside_sign_out_all": {
+      "message": "Sign Out of all Accounts"
+   },
+   "preferences_aside_theme": {
+      "message": "Theme"
+   },
+   "pro_banner_buy": {
+      "message": "Buy Pro"
+   },
+   "pro_banner_days_left": {
+      "message": "Trial ends in %days%"
+   },
+   "pro_banner_start_trial": {
+      "message": "Try Pro for Free"
+   },
+   "pro_banner_subtitle": {
+      "message": "Access advanced features and tools to boost your work"
+   },
+   "pro_banner_title": {
+      "message": "Get more with Tonkeeper Pro"
+   },
+   "pro_subscription_is_active": {
+      "message": "Pro Subscription is active."
+   },
+   "pro_trial_is_active": {
+      "message": "Pro Trial is active."
+   },
+   "programmable_nfts_alert_cancel": {
+      "message": "Cancel"
+   },
+   "programmable_nfts_alert_description": {
+      "message": "Visit this external link only if you trust the author of the collection.\n\n{{uri}}"
+   },
+   "programmable_nfts_alert_open": {
+      "message": "Open anyway"
+   },
+   "programmable_nfts_alert_title": {
+      "message": "Are you sure you want to open an external link?"
+   },
+   "publish_message": {
+      "message": "Publishing Message to Internet"
+   },
+   "purchases_screen_title": {
+      "message": "Purchases"
+   },
+   "receiveModal_copy": {
+      "message": "Copy"
+   },
+   "receiveModal_receive": {
+      "message": "Receive"
+   },
+   "receiveModal_receive_description": {
+      "message": "Send only %{tokenName} and tokens in TON network to this address, or you might lose your funds."
+   },
+   "receiveModal_receive_title": {
+      "message": "Receive %{tokenName}"
+   },
+   "receiveModal_receive_ton": {
+      "message": "Send only Toncoin TON and tokens in TON network to this address, or you might lose your funds."
+   },
+   "receive_address_title": {
+      "message": "或使用钱包地址"
+   },
+   "receive_copy": {
+      "message": "复制"
+   },
+   "receive_qr_title": {
+      "message": "显示收款二维码"
+   },
+   "receive_received_title": {
+      "message": "你已接收\n%{amount} %{currency}"
+   },
+   "receive_share": {
+      "message": "分享"
+   },
+   "receive_title": {
+      "message": "接收 %{currency}"
+   },
+   "receive_ton": {
+      "message": "Receive Toncoin"
+   },
+   "receive_ton_and_jettons": {
+      "message": "接收TON和其他代币"
+   },
+   "receive_ton_description": {
+      "message": "Send only Toncoin TON and tokens\nin TON network to this address, or you\nmight lose your funds."
+   },
+   "receive_trc20": {
+      "message": "Receive USDT TRC20"
+   },
+   "receive_trc20_description": {
+      "message": "Send only USDT TRC20\nto this address, or you might\nlose your funds."
+   },
+   "recipients": {
+      "message": "Recipients"
+   },
+   "recovery_phrase_caption": {
+      "message": "写下这些单词及其编号并将其存放在安全的地方。"
+   },
+   "recovery_phrase_check_button": {
+      "message": "检查备份"
+   },
+   "recovery_phrase_copy_button": {
+      "message": "复制"
+   },
+   "recovery_phrase_title": {
+      "message": "助记词"
+   },
+   "refresh_app": {
+      "message": "重新刷新"
+   },
+   "region_nokyc": {
+      "message": "Neutral Waters"
+   },
+   "reminder_notifications_caption": {
+      "message": "当您收到TON、代币和NFT时获得通知。"
+   },
+   "reminder_notifications_enable_button": {
+      "message": "启用通知"
+   },
+   "reminder_notifications_later_button": {
+      "message": "稍后"
+   },
+   "reminder_notifications_title": {
+      "message": "获得即时通知"
+   },
+   "renew_in_progress": {
+      "message": "Renew in progress…"
+   },
+   "renew_nft_expiration_date": {
+      "message": "Expires %1%"
+   },
+   "renew_nft_in_progress": {
+      "message": "Domain renew in progress…"
+   },
+   "renew_nft_renewed": {
+      "message": "Domain renewed for 1 year"
+   },
+   "renew_progress_of": {
+      "message": "%{current} of %{count}"
+   },
+   "replace": {
+      "message": "Replace"
+   },
+   "require_create_wallet_modal_caption": {
+      "message": "您需要一个已连接的钱包来使用\nTonkeeper。创建一个新钱包，或者导入一个现有的钱包。"
+   },
+   "require_create_wallet_modal_create_new": {
+      "message": "创建新钱包"
+   },
+   "require_create_wallet_modal_import": {
+      "message": "导入现有钱包"
+   },
+   "require_create_wallet_modal_title": {
+      "message": "让我们设置您的钱包"
+   },
+   "reset_tron_cache": {
+      "message": "Reset Tron cache"
+   },
+   "restake_banner_stake_into_step": {
+      "message": "Stake available TON into Tonstakers."
+   },
+   "restake_banner_stake_into_tonstakers_action": {
+      "message": "Stake into Tonstakers"
+   },
+   "restake_banner_title": {
+      "message": "Earn more TON with %apy in Tonstakers liquid staking"
+   },
+   "restake_banner_unstake_action_all": {
+      "message": "Unstake %{amount}"
+   },
+   "restake_banner_unstake_action_manual": {
+      "message": "Enter manually"
+   },
+   "restake_banner_unstake_step": {
+      "message": "Unstake TON from your current staking provider."
+   },
+   "restake_banner_wait_step": {
+      "message": "Wait until your TON become available."
+   },
+   "restake_banner_wait_step_collect": {
+      "message": "Collect"
+   },
+   "restake_banner_wait_step_cooldown": {
+      "message": "Your TON will be available soon. You'll be able to collect them shortly."
+   },
+   "restake_banner_wait_step_pending": {
+      "message": "Your TON will be available in %{0, number}uration. After this time you can сollect them."
+   },
+   "restake_banner_wait_step_withdraw": {
+      "message": "Collect available TON from your previous staking provider."
+   },
+   "save": {
+      "message": "Save"
+   },
+   "scan_qr_open_settings": {
+      "message": "打开设置"
+   },
+   "scan_qr_permission_error": {
+      "message": "允许摄像头访问以扫描二维码"
+   },
+   "scan_qr_title": {
+      "message": "扫描二维码"
+   },
+   "secret_words_caption": {
+      "message": "按下面给出的顺序写下这24个词，并将它们存放在一个秘密的、安全的地方。"
+   },
+   "secret_words_title": {
+      "message": "您的恢复短语"
+   },
+   "security_change_passcode": {
+      "message": "更改密码"
+   },
+   "security_lock_screen_switch": {
+      "message": "Lock Screen"
+   },
+   "security_lock_screen_tip": {
+      "message": "Require passcode to view wallet contents."
+   },
+   "security_migration_caption": {
+      "message": "现在，您的余额和任何操作都受到密码的保护。您还可以使用生物密钥来加速登入。"
+   },
+   "security_migration_skip_button": {
+      "message": "现在不更新"
+   },
+   "security_migration_submit_button": {
+      "message": "更新安全设置"
+   },
+   "security_migration_title": {
+      "message": "更新钱包安全"
+   },
+   "security_reset_passcode": {
+      "message": "重置密码"
+   },
+   "security_title": {
+      "message": "安全"
+   },
+   "security_use_biometry_switch": {
+      "message": "使用%{biometryType}"
+   },
+   "security_use_biometry_tip": {
+      "message": "您始终可以使用密码解锁您的钱包。"
+   },
+   "select_wallet_for_authorization": {
+      "message": "Select Wallet for authorization"
+   },
+   "send_address_placeholder": {
+      "message": "地址或名称"
+   },
+   "send_all_warning_title": {
+      "message": "你确定要发送你所有的余额吗？"
+   },
+   "send_build_tx_error": {
+      "message": "您的交易失败"
+   },
+   "send_comment_label": {
+      "message": "添加评论"
+   },
+   "send_fee_estimation_error": {
+      "message": "手续费计算失败"
+   },
+   "send_get_wallet_info_error": {
+      "message": "获取钱包信息失败"
+   },
+   "send_insufficient_funds": {
+      "message": "资金不足"
+   },
+   "send_invalid_recipient_caption": {
+      "message": "该域名不存在或钱包地址与其未链接"
+   },
+   "send_invalid_recipient_title": {
+      "message": "无效接收者"
+   },
+   "send_liquid_jetton_warning_title": {
+      "message": "你确定要发送部分质押余额吗？"
+   },
+   "send_lockup_warning_caption": {
+      "message": "请确认你正在发送到允许的地址。\n\n即使交易失败，也会扣除手续费。"
+   },
+   "send_lockup_warning_submit_button": {
+      "message": "发送"
+   },
+   "send_lockup_warning_title": {
+      "message": "金额超过可用余额"
+   },
+   "send_publish_tx_error": {
+      "message": "发送交易失败"
+   },
+   "send_screen_steps_address_delete_alert_text": {
+      "message": "你确定要从收藏中删除「%{name}」吗？"
+   },
+   "send_screen_steps_address_placeholder": {
+      "message": "钱包地址或域名"
+   },
+   "send_screen_steps_address_recent_label": {
+      "message": "最近的"
+   },
+   "send_screen_steps_address_suggest_actions_add": {
+      "message": "添加到收藏"
+   },
+   "send_screen_steps_address_suggest_actions_delete": {
+      "message": "删除"
+   },
+   "send_screen_steps_address_suggest_actions_edit": {
+      "message": "编辑收藏"
+   },
+   "send_screen_steps_address_suggest_actions_hide": {
+      "message": "隐藏"
+   },
+   "send_screen_steps_address_suggests_label": {
+      "message": "收藏和最近的"
+   },
+   "send_screen_steps_address_title": {
+      "message": "接收者"
+   },
+   "send_screen_steps_amount_insufficient_balance": {
+      "message": "余额不足"
+   },
+   "send_screen_steps_amount_less_than_min": {
+      "message": "最少 %{minAmount} TON"
+   },
+   "send_screen_steps_amount_liquid_jetton_note": {
+      "message": "Sending tsTON liquidity token"
+   },
+   "send_screen_steps_amount_max": {
+      "message": "最大"
+   },
+   "send_screen_steps_amount_recipient_label": {
+      "message": "至:"
+   },
+   "send_screen_steps_amount_remaining": {
+      "message": "剩余: %{amount}"
+   },
+   "send_screen_steps_amount_title": {
+      "message": "金额"
+   },
+   "send_screen_steps_comfirm_action": {
+      "message": "%{coin} 转账"
+   },
+   "send_screen_steps_comfirm_comment_decrypt": {
+      "message": "解密"
+   },
+   "send_screen_steps_comfirm_comment_description": {
+      "message": "所有人都可以看到。"
+   },
+   "send_screen_steps_comfirm_comment_description_encrypted": {
+      "message": "只有接收者和你可以看到。"
+   },
+   "send_screen_steps_comfirm_comment_encrypt": {
+      "message": "加密 Comment"
+   },
+   "send_screen_steps_comfirm_comment_label": {
+      "message": "Comment"
+   },
+   "send_screen_steps_comfirm_comment_label_encrypted": {
+      "message": "Encrypted comment"
+   },
+   "send_screen_steps_comfirm_comment_label_required": {
+      "message": "需要的 Comment"
+   },
+   "send_screen_steps_comfirm_comment_required_text": {
+      "message": "你必须包含交换的备注进行转账。否则你的资金将会丢失。"
+   },
+   "send_screen_steps_comfirm_details_label": {
+      "message": "详情"
+   },
+   "send_screen_steps_comfirm_details_max_balance_label": {
+      "message": "发送全部余额 %{currency}"
+   },
+   "send_screen_steps_comfirm_title": {
+      "message": "确认交易"
+   },
+   "send_screen_steps_comfirm_wallet": {
+      "message": "Wallet"
+   },
+   "send_screen_steps_comfirm_will_be_paid_with_battery": {
+      "message": "将使用电池进行支付"
+   },
+   "send_screen_steps_done_add_favorite": {
+      "message": "将地址保存到收藏"
+   },
+   "send_screen_steps_done_address": {
+      "message": "地址: %{address}"
+   },
+   "send_screen_steps_done_comment": {
+      "message": "评论: %{comment}"
+   },
+   "send_screen_steps_done_description": {
+      "message": "你的交易已经发送到网络，将在几秒钟内处理。"
+   },
+   "send_screen_steps_done_done_label": {
+      "message": "完成"
+   },
+   "send_screen_steps_done_favorite_saved": {
+      "message": "保存到收藏"
+   },
+   "send_screen_steps_done_fee": {
+      "message": "手续费: %{fee}"
+   },
+   "send_screen_steps_done_title": {
+      "message": "%{currency} 已发送！"
+   },
+   "send_screen_steps_done_to": {
+      "message": "至: %{name}"
+   },
+   "send_sending_failed": {
+      "message": "发送失败"
+   },
+   "send_sending_wrong_time_description": {
+      "message": "时间不同步。在设备设置中打开自动同步日期和时间后重试转账。"
+   },
+   "send_sending_wrong_time_title": {
+      "message": "发生错误"
+   },
+   "send_title": {
+      "message": "发送 %{currency}"
+   },
+   "settings_appearance": {
+      "message": "主题"
+   },
+   "settings_backup_seed": {
+      "message": "显示恢复短语"
+   },
+   "settings_bank_card": {
+      "message": "Bank card"
+   },
+   "settings_contact_support": {
+      "message": "联系我们"
+   },
+   "settings_delete_account": {
+      "message": "删除账户"
+   },
+   "settings_delete_alert_button": {
+      "message": "删除账户和数据"
+   },
+   "settings_delete_alert_caption": {
+      "message": "此操作将从此应用中删除您的账户和所有数据。"
+   },
+   "settings_delete_alert_title": {
+      "message": "您确定要删除您的账户吗？"
+   },
+   "settings_delete_watch_account": {
+      "message": "Delete Watch Account?"
+   },
+   "settings_delete_watch_account_button": {
+      "message": "Delete"
+   },
+   "settings_jettons_list": {
+      "message": "代币"
+   },
+   "settings_legal_documents": {
+      "message": "法律文件"
+   },
+   "settings_network_alert_title": {
+      "message": "选择网络"
+   },
+   "settings_news": {
+      "message": "Tonkeeper新闻"
+   },
+   "settings_news_url": {
+      "message": "https://t.me/tonkeeper"
+   },
+   "settings_notifications": {
+      "message": "通知"
+   },
+   "settings_primary_currency": {
+      "message": "货币"
+   },
+   "settings_rate": {
+      "message": "为Tonkeeper评分"
+   },
+   "settings_recovery_phrase": {
+      "message": "恢复短语"
+   },
+   "settings_reset": {
+      "message": "退出登录"
+   },
+   "settings_reset_alert_button": {
+      "message": "退出登录"
+   },
+   "settings_reset_alert_caption": {
+      "message": "这将删除钱包的密钥。确保您已备份了您的秘密恢复短语。"
+   },
+   "settings_reset_alert_caption_all": {
+      "message": "这将删除所有钱包的密钥。确保您已备份了您的助记词。"
+   },
+   "settings_reset_alert_title": {
+      "message": "退出登录？"
+   },
+   "settings_reset_alert_title_all": {
+      "message": "注销所有钱包？"
+   },
+   "settings_search_engine": {
+      "message": "搜索"
+   },
+   "settings_security": {
+      "message": "安全"
+   },
+   "settings_subscriptions": {
+      "message": "订阅"
+   },
+   "settings_support": {
+      "message": "支持"
+   },
+   "settings_title": {
+      "message": "设置"
+   },
+   "settings_to_mainnet": {
+      "message": "切换到主网"
+   },
+   "settings_to_testnet": {
+      "message": "切换到测试网"
+   },
+   "settings_version": {
+      "message": "版本"
+   },
+   "settings_wallet_version": {
+      "message": "活动地址"
+   },
+   "setup_biometry_caption": {
+      "message": "%{biometryType}允许您更快地打开您的钱包，而无需输入密码。"
+   },
+   "setup_biometry_enable_button": {
+      "message": "启用%{biometryType}"
+   },
+   "setup_biometry_title": {
+      "message": "使用%{biometryType}快速登录"
+   },
+   "setup_notifications_caption": {
+      "message": "当您收到TON、代币和NFT时获得通知。"
+   },
+   "setup_notifications_enable_button": {
+      "message": "启用通知"
+   },
+   "setup_notifications_title": {
+      "message": "获得即时通知"
+   },
+   "signer_scan_result": {
+      "message": "Scan signed transaction"
+   },
+   "signer_scan_tx_description": {
+      "message": "Please open Signer and scan QR code with transaction"
+   },
+   "skip": {
+      "message": "跳过"
+   },
+   "spam_action": {
+      "message": "垃圾邮件"
+   },
+   "staking_active": {
+      "message": "活跃的"
+   },
+   "staking_confirm_address_label": {
+      "message": "接收者地址"
+   },
+   "staking_confirm_amount_label": {
+      "message": "金额"
+   },
+   "staking_confirm_amount_value": {
+      "message": "%{value} TON"
+   },
+   "staking_confirm_deposit": {
+      "message": "Confirm and Stake"
+   },
+   "staking_confirm_fee_label": {
+      "message": "费用"
+   },
+   "staking_confirm_fee_value": {
+      "message": "≈ %{value} TON"
+   },
+   "staking_confirm_recipient_label": {
+      "message": "接收者"
+   },
+   "staking_confirm_unstake": {
+      "message": "Confirm and Unstake"
+   },
+   "staking_confirm_withdraw_amount_label": {
+      "message": "提款金额"
+   },
+   "staking_deposit": {
+      "message": "存款"
+   },
+   "staking_desc_large": {
+      "message": "Join staking and get rewards. Staking helps to maintain the TON network."
+   },
+   "staking_details_about_pool": {
+      "message": "关于质押池"
+   },
+   "staking_details_apy_highest_tag": {
+      "message": "MAX"
+   },
+   "staking_details_apy_label": {
+      "message": "预估年化收益率"
+   },
+   "staking_details_apy_value": {
+      "message": "≈ %{value}%"
+   },
+   "staking_details_balance": {
+      "message": "质押余额"
+   },
+   "staking_details_cooldown_active": {
+      "message": "活跃的"
+   },
+   "staking_details_cooldown_desc": {
+      "message": "应用于每个质押周期开始的两小时时段，以改善周期之间的存款和提款过程"
+   },
+   "staking_details_cooldown_title": {
+      "message": "冷却时间"
+   },
+   "staking_details_frequency_label": {
+      "message": "奖励频率"
+   },
+   "staking_details_frequency_value": {
+      "message": "每%{count}小时"
+   },
+   "staking_details_links_title": {
+      "message": "Links"
+   },
+   "staking_details_liquidity_token_label": {
+      "message": "%{token} liquidity token"
+   },
+   "staking_details_liquidity_token_value": {
+      "message": "Learn more"
+   },
+   "staking_details_min_deposit_label": {
+      "message": "最小存款"
+   },
+   "staking_details_min_deposit_value": {
+      "message": "%{value} TON"
+   },
+   "staking_details_next_cycle_desc": {
+      "message": "所有交易在周期结束后生效"
+   },
+   "staking_details_next_cycle_desc_liquid": {
+      "message": "所有提款请求在周期结束后生效"
+   },
+   "staking_details_next_cycle_in": {
+      "message": "in"
+   },
+   "staking_details_next_cycle_message": {
+      "message": "Unstake request will be processed after the end of the validation cycle in %{value}"
+   },
+   "staking_details_next_cycle_reward_title": {
+      "message": "Next reward"
+   },
+   "staking_details_next_cycle_time": {
+      "message": "在%{time}内"
+   },
+   "staking_details_next_cycle_title": {
+      "message": "下一个周期"
+   },
+   "staking_details_note": {
+      "message": "Staking is based on smart contracts by third parties. Tonkeeper is not responsible for staking experience."
+   },
+   "staking_details_pendingDeposit": {
+      "message": "待处理的存款"
+   },
+   "staking_details_pendingWithdraw": {
+      "message": "待处理的提款"
+   },
+   "staking_details_pendingWithdrawDesc": {
+      "message": "after the end of the cycle"
+   },
+   "staking_details_pool_address_label": {
+      "message": "质押池地址"
+   },
+   "staking_details_readyWithdraw": {
+      "message": "提款已准备好"
+   },
+   "staking_details_show_details": {
+      "message": "详细信息"
+   },
+   "staking_details_socials_telegram": {
+      "message": "Community"
+   },
+   "staking_details_socials_twitter": {
+      "message": "Twitter"
+   },
+   "staking_details_tap_to_collect": {
+      "message": "点击收集"
+   },
+   "staking_estimated_profit": {
+      "message": "%{amount} TON – annual profit\nif you stake TON today"
+   },
+   "staking_estimated_profit_compare": {
+      "message": "More profitable by %{amount} TON per year than your current staking"
+   },
+   "staking_get_withdrawal": {
+      "message": "收到提款"
+   },
+   "staking_highest_apy": {
+      "message": "MAX APY"
+   },
+   "staking_jetton_note": {
+      "message": "When you stake TON in a %{poolName} pool, you receive a token called %{token} that represents your share in the pool. As the pool accumulates profits, your %{token} represents larger amount of TON."
+   },
+   "staking_learn_more": {
+      "message": "Learn more"
+   },
+   "staking_message_pendingDeposit": {
+      "message": "%{amount} TON staked\n"
+   },
+   "staking_message_pendingWithdraw": {
+      "message": "%{amount} TON unstaked\n"
+   },
+   "staking_message_pendingWithdrawLiquid": {
+      "message": "%{amount} TON unstaked after the end of the cycle"
+   },
+   "staking_message_readyWithdraw": {
+      "message": "%{amount} TON ready.\nTap to collect"
+   },
+   "staking_no_funds": {
+      "message": "No funds available for unstake"
+   },
+   "staking_not_exists": {
+      "message": "Invalid pool address"
+   },
+   "staking_other": {
+      "message": "其他"
+   },
+   "staking_recommended": {
+      "message": "最高利息"
+   },
+   "staking_rewards_after_top_up": {
+      "message": "充值后"
+   },
+   "staking_rewards_current": {
+      "message": "当前的"
+   },
+   "staking_rewards_title": {
+      "message": "您的年度奖励"
+   },
+   "staking_rewards_value": {
+      "message": "≈ %{value} TON"
+   },
+   "staking_send_staked_ton": {
+      "message": "Staked TON"
+   },
+   "staking_staked": {
+      "message": "Staked"
+   },
+   "staking_staked_ton": {
+      "message": "Staked TON"
+   },
+   "staking_staking_desc": {
+      "message": "最低存款从%{minStake} TON开始。\n赚取高达%{maxApy}%的收益。"
+   },
+   "staking_staking_pool_desc": {
+      "message": "年化收益率 ≈ %{apy}%"
+   },
+   "staking_title": {
+      "message": "质押"
+   },
+   "staking_title_large": {
+      "message": "TON Staking"
+   },
+   "staking_top_up": {
+      "message": "充值"
+   },
+   "staking_transaction": {
+      "message": "交易"
+   },
+   "staking_warning_about": {
+      "message": "关于%{name}"
+   },
+   "staking_warning_beta_desc": {
+      "message": "We are not responsible for the stability and staking experience. Use at your own risk."
+   },
+   "staking_warning_desc": {
+      "message": "质押基于第三方智能合约。我们不对其工作负责。"
+   },
+   "staking_warning_title": {
+      "message": "警告"
+   },
+   "staking_widget_desc": {
+      "message": "在您的TONs上赚取高达 %{apy}%的收益"
+   },
+   "staking_widget_staking_options": {
+      "message": "Staking options"
+   },
+   "staking_widget_title": {
+      "message": "Stake TON"
+   },
+   "staking_withdraw": {
+      "message": "提款"
+   },
+   "staking_withdrawal_fee_warning_continue": {
+      "message": "继续操作"
+   },
+   "staking_withdrawal_fee_warning_message": {
+      "message": "请至少在您的余额上保留{{amount}} TON。"
+   },
+   "staking_withdrawal_fee_warning_title": {
+      "message": "您的资金不足以提款"
+   },
+   "staking_withdrawal_request": {
+      "message": "提款请求"
+   },
+   "start_screen_caption": {
+      "message": "创建一个新钱包或添加现有钱包"
+   },
+   "start_screen_create_wallet_button": {
+      "message": "创建新钱包"
+   },
+   "start_screen_import_wallet_button": {
+      "message": "导入现有钱包"
+   },
+   "start_trial_notification_description": {
+      "message": "Telegram connection is required solely for the purpose of verification that you are not a bot."
+   },
+   "start_trial_notification_heading": {
+      "message": "Connect Telegram to Pro for Free"
+   },
+   "stop_watch": {
+      "message": "删除观察账户"
+   },
+   "subscription_back_to_merchant_button": {
+      "message": "返回"
+   },
+   "subscription_back_to_merchant_caption": {
+      "message": "交易正在处理中。您的订阅很快就会生效。"
+   },
+   "subscription_back_to_merchant_name": {
+      "message": "返回到%{merchantName}"
+   },
+   "subscription_back_to_merchant_title": {
+      "message": "返回到频道？"
+   },
+   "subscription_cancel": {
+      "message": "取消订阅"
+   },
+   "subscription_cancel_alert_cancel_btn": {
+      "message": "现在不"
+   },
+   "subscription_cancel_alert_caption": {
+      "message": "如果您现在取消，您仍然可以在%{nextBill}之前访问您的订阅。"
+   },
+   "subscription_cancel_alert_submit_btn": {
+      "message": "是的，取消"
+   },
+   "subscription_cancel_alert_title": {
+      "message": "取消订阅？"
+   },
+   "subscription_expiring": {
+      "message": "到期"
+   },
+   "subscription_fee": {
+      "message": "费用"
+   },
+   "subscription_next_bill": {
+      "message": "下一次账单"
+   },
+   "subscription_open_merchant": {
+      "message": "在Telegram中打开"
+   },
+   "subscription_period": {
+      "message": "间隔"
+   },
+   "subscription_period_custom": {
+      "message": "每%{period}"
+   },
+   "subscription_period_day": {
+      "message": "每日"
+   },
+   "subscription_period_half_year": {
+      "message": "每半年"
+   },
+   "subscription_period_hour": {
+      "message": "每小时"
+   },
+   "subscription_period_month": {
+      "message": "每月"
+   },
+   "subscription_period_quarter": {
+      "message": "每季度"
+   },
+   "subscription_period_week": {
+      "message": "每周"
+   },
+   "subscription_period_weeks": {
+      "message": "每%{count}周"
+   },
+   "subscription_period_year": {
+      "message": "每年"
+   },
+   "subscription_price": {
+      "message": "价格"
+   },
+   "subscription_sent": {
+      "message": "交易已发送"
+   },
+   "subscription_started": {
+      "message": "已开始订阅"
+   },
+   "subscription_subscribe": {
+      "message": "订阅"
+   },
+   "subscription_title": {
+      "message": "订阅"
+   },
+   "subscription_unsubscribe": {
+      "message": "取消订阅"
+   },
+   "subscriptions_item_caption": {
+      "message": "%{price} TON, 下一次账单在%{nextBill}"
+   },
+   "subscriptions_item_caption_expired": {
+      "message": "在%{date}到期"
+   },
+   "subscriptions_item_caption_expiring": {
+      "message": "%{price} TON, 在%{date}到期"
+   },
+   "subscriptions_section_active": {
+      "message": "活跃"
+   },
+   "subscriptions_section_expired": {
+      "message": "已过期"
+   },
+   "subscriptions_title": {
+      "message": "订阅"
+   },
+   "success": {
+      "message": "成功!"
+   },
+   "swap_balance": {
+      "message": "Balance"
+   },
+   "swap_best_price": {
+      "message": "Best Price"
+   },
+   "swap_blockchain_fee": {
+      "message": "Blockchain fee"
+   },
+   "swap_blockchain_fee_tooltip": {
+      "message": "Estimated fee charged by the blockchain for processing the transaction."
+   },
+   "swap_enter_amount": {
+      "message": "Enter an amount"
+   },
+   "swap_import": {
+      "message": "Import"
+   },
+   "swap_import_token_title": {
+      "message": "Import %token% token?"
+   },
+   "swap_ledger_not_supported": {
+      "message": "Swaps with Ledger wallets are not supported"
+   },
+   "swap_max": {
+      "message": "MAX"
+   },
+   "swap_minimum_received": {
+      "message": "Minimum received"
+   },
+   "swap_minimum_received_tooltip": {
+      "message": "The minimum amount you are guaranteed to receive after the trade is completed."
+   },
+   "swap_not_enough_funds": {
+      "message": "Not enough funds"
+   },
+   "swap_price_impact": {
+      "message": "Price Impact"
+   },
+   "swap_price_impact_too_high": {
+      "message": "Price impact too high"
+   },
+   "swap_price_impact_tooltip": {
+      "message": "The impact that the swap will have on the market price of the token upon completion of the trade."
+   },
+   "swap_provider": {
+      "message": "Provider"
+   },
+   "swap_receive": {
+      "message": "Receive"
+   },
+   "swap_route": {
+      "message": "Route"
+   },
+   "swap_search": {
+      "message": "Search"
+   },
+   "swap_send": {
+      "message": "Send"
+   },
+   "swap_settings": {
+      "message": "Swap Settings"
+   },
+   "swap_slippage": {
+      "message": "Slippage"
+   },
+   "swap_slippage_description": {
+      "message": "The maximum allowable difference between the estimated price and the actual price. If the price difference exceeds this limit, the swap will automatically be reverted."
+   },
+   "swap_slippage_tooltip": {
+      "message": "The maximum allowable difference between the estimated price and the actual price. If the price difference exceeds this limit, the swap will automatically be reverted. You can configure this setting in the swaps settings menu."
+   },
+   "swap_title": {
+      "message": "交换"
+   },
+   "swap_tokens": {
+      "message": "Tokens"
+   },
+   "swap_tokens_not_found": {
+      "message": "Tokens not found"
+   },
+   "swap_trade_is_not_available": {
+      "message": "Trade is not available"
+   },
+   "swap_tx_info": {
+      "message": "Transaction Information"
+   },
+   "swap_unknown_price_impact": {
+      "message": "Unknown price impact"
+   },
+   "swap_unknown_token_description": {
+      "message": "This token isn't included in the active token list. Make sure you are aware of the risks associated with imported tokens."
+   },
+   "tab_browser": {
+      "message": "浏览器"
+   },
+   "tab_nft": {
+      "message": "NFTs"
+   },
+   "tab_settings": {
+      "message": "设置"
+   },
+   "tab_swap": {
+      "message": "交换"
+   },
+   "tab_wallet": {
+      "message": "钱包"
+   },
+   "tme_linked_with_another_address_warn": {
+      "message": "The name is not linked to your current address. Be careful with transactions to this name."
+   },
+   "today": {
+      "message": "今天"
+   },
+   "tokenDetails_name": {
+      "message": "Name"
+   },
+   "tokenDetails_title": {
+      "message": "Token Details"
+   },
+   "tokenDetails_token_id": {
+      "message": "Token ID"
+   },
+   "tokenDetails_tonviewer_button": {
+      "message": "View on Tonviewer"
+   },
+   "tokens_hide_statistics_btn": {
+      "message": "Hide Statistics"
+   },
+   "tokens_show_statistics_btn": {
+      "message": "Show Statistics"
+   },
+   "ton_login_back_to_button": {
+      "message": "返回到%{name}"
+   },
+   "ton_login_caption": {
+      "message": "%{name}正在请求访问您的钱包地址"
+   },
+   "ton_login_connect_button": {
+      "message": "连接钱包"
+   },
+   "ton_login_notice": {
+      "message": "连接钱包之前，请务必检查服务地址。"
+   },
+   "ton_login_success": {
+      "message": "完成"
+   },
+   "ton_login_title": {
+      "message": "连接到%{0, number}omain？"
+   },
+   "ton_login_title_web": {
+      "message": "Connect to %{name}?"
+   },
+   "tonkeeper_pro": {
+      "message": "Tonkeeper Pro"
+   },
+   "tonkeeper_pro_description": {
+      "message": "Tonkeeper Pro's subscription comes with an extended wallet feature, offering a toolset for crypto management. "
+   },
+   "total_balance": {
+      "message": "Total balance"
+   },
+   "touch_id_unlock_wallet": {
+      "message": "unlock your wallet"
+   },
+   "transactionDetails_address": {
+      "message": "地址"
+   },
+   "transactionDetails_bid_collection_name": {
+      "message": "发行者"
+   },
+   "transactionDetails_bid_date": {
+      "message": "在 %{time} 出价"
+   },
+   "transactionDetails_bid_name": {
+      "message": "名称"
+   },
+   "transactionDetails_comment": {
+      "message": "评论"
+   },
+   "transactionDetails_description": {
+      "message": "Description"
+   },
+   "transactionDetails_operation": {
+      "message": "操作"
+   },
+   "transactionDetails_payload": {
+      "message": "有效载荷"
+   },
+   "transactionDetails_purchase_date": {
+      "message": "在 %{time} 购买"
+   },
+   "transactionDetails_received_date": {
+      "message": "在 %{time} 收到"
+   },
+   "transactionDetails_recipient": {
+      "message": "接收者"
+   },
+   "transactionDetails_recipient_address": {
+      "message": "接收者地址"
+   },
+   "transactionDetails_sender": {
+      "message": "发送者"
+   },
+   "transactionDetails_sender_address": {
+      "message": "发送者地址"
+   },
+   "transactionDetails_sent_date": {
+      "message": "在 %{time} 发送"
+   },
+   "transactionDetails_spam": {
+      "message": "垃圾邮件"
+   },
+   "transactionDetails_subscription_merchant_label": {
+      "message": "Merchant"
+   },
+   "transactionDetails_subscription_product_label": {
+      "message": "Subscription"
+   },
+   "transactionDetails_swapped_date": {
+      "message": "在 %{time} 交换"
+   },
+   "transactionDetails_transaction": {
+      "message": "交易"
+   },
+   "transactionDetails_unsubscription_title": {
+      "message": "Unsubscribed"
+   },
+   "transactionDetails_withdraw_amount": {
+      "message": "Unstake amount"
+   },
+   "transaction_bid_collection_name": {
+      "message": "发行者"
+   },
+   "transaction_bid_date": {
+      "message": "出价日期 %{date}"
+   },
+   "transaction_bid_dns": {
+      "message": "名称"
+   },
+   "transaction_buy_date": {
+      "message": "购买日期 %{date}"
+   },
+   "transaction_buy_status_failed": {
+      "message": "失败"
+   },
+   "transaction_buy_status_pending": {
+      "message": "待处理"
+   },
+   "transaction_buy_status_success": {
+      "message": "成功"
+   },
+   "transaction_call_date": {
+      "message": "Contract Call %{date}"
+   },
+   "transaction_confirm_bid": {
+      "message": "确认出价"
+   },
+   "transaction_confirmations": {
+      "message": "确认"
+   },
+   "transaction_contract_deploy_date": {
+      "message": "合约部署日期 %{date}"
+   },
+   "transaction_copy_caution": {
+      "message": "小心外部链接！！！永远不要将你的密钥/助记词提供给第三者 — 否则你可能会失去所有的资金。\n\n- - -\n\n"
+   },
+   "transaction_exchange_from_currency": {
+      "message": "从"
+   },
+   "transaction_fee": {
+      "message": "手续费"
+   },
+   "transaction_hash": {
+      "message": "交易"
+   },
+   "transaction_merchant": {
+      "message": "商家"
+   },
+   "transaction_message": {
+      "message": "消息"
+   },
+   "transaction_purchase_id": {
+      "message": "购买ID"
+   },
+   "transaction_receive_date": {
+      "message": "接收日期 %{date}"
+   },
+   "transaction_recipient": {
+      "message": "收款方"
+   },
+   "transaction_recipient_address": {
+      "message": "收款方地址"
+   },
+   "transaction_refund": {
+      "message": "退款"
+   },
+   "transaction_send_more_button": {
+      "message": "向此接收方发送更多"
+   },
+   "transaction_sender": {
+      "message": "付款方"
+   },
+   "transaction_sender_address": {
+      "message": "付款方地址"
+   },
+   "transaction_sent_date": {
+      "message": "发送日期 %{date}"
+   },
+   "transaction_show_subscription_button": {
+      "message": "查看订阅"
+   },
+   "transaction_status": {
+      "message": "状态"
+   },
+   "transaction_subscription": {
+      "message": "订阅"
+   },
+   "transaction_subscription_date": {
+      "message": "扣费日期 %{date}"
+   },
+   "transaction_transfer_name": {
+      "message": "转账名称"
+   },
+   "transaction_type_bid": {
+      "message": "出价"
+   },
+   "transaction_type_bounced": {
+      "message": "已退回"
+   },
+   "transaction_type_buy": {
+      "message": "已购买"
+   },
+   "transaction_type_contract_deploy": {
+      "message": "合约部署"
+   },
+   "transaction_type_from": {
+      "message": "来自"
+   },
+   "transaction_type_mint": {
+      "message": "Mint"
+   },
+   "transaction_type_new_subscriber": {
+      "message": "新订阅者"
+   },
+   "transaction_type_pending": {
+      "message": "支付中"
+   },
+   "transaction_type_purchase": {
+      "message": "Purchase"
+   },
+   "transaction_type_receive": {
+      "message": "已接收"
+   },
+   "transaction_type_sent": {
+      "message": "已发送"
+   },
+   "transaction_type_subscriber_lost": {
+      "message": "订阅者丢失"
+   },
+   "transaction_type_subscription": {
+      "message": "已订阅"
+   },
+   "transaction_type_to": {
+      "message": "到"
+   },
+   "transaction_type_unsubscription": {
+      "message": "已取消订阅"
+   },
+   "transaction_type_wallet_initialized": {
+      "message": "已初始化钱包"
+   },
+   "transaction_unsubscription": {
+      "message": "取消订阅"
+   },
+   "transaction_unsubscription_date": {
+      "message": "取消订阅日期 %{date}"
+   },
+   "transaction_view_in_explorer": {
+      "message": "在浏览器中查看"
+   },
+   "transaction_wallet_initialized_date": {
+      "message": "钱包初始化日期 %{date}"
+   },
+   "transaction_your_bid": {
+      "message": "你的出价"
+   },
+   "transactions_bid": {
+      "message": "出价"
+   },
+   "transactions_burned": {
+      "message": "Burned"
+   },
+   "transactions_contract_deploy": {
+      "message": "部署合约"
+   },
+   "transactions_deposit": {
+      "message": "Stake"
+   },
+   "transactions_failed": {
+      "message": "失败"
+   },
+   "transactions_nft_purchase": {
+      "message": "NFT购买"
+   },
+   "transactions_smartcontract_exec": {
+      "message": "调用合约"
+   },
+   "transactions_spam": {
+      "message": "垃圾消息"
+   },
+   "transactions_subscription": {
+      "message": "已订阅"
+   },
+   "transactions_swap": {
+      "message": "交换"
+   },
+   "transactions_unknown": {
+      "message": "未知"
+   },
+   "transactions_unknown_description": {
+      "message": "发生了一些事情，但我们无法识别"
+   },
+   "transactions_unsubscription": {
+      "message": "已退订"
+   },
+   "transactions_wallet_initialized": {
+      "message": "钱包已初始化"
+   },
+   "transactions_withdraw": {
+      "message": "Unstake"
+   },
+   "transactions_withdrawal_request": {
+      "message": "Unstake Request"
+   },
+   "transfer_deeplink_address_error": {
+      "message": "收件人地址不正确"
+   },
+   "transfer_deeplink_amount_error": {
+      "message": "金额请求不正确"
+   },
+   "transfer_deeplink_expired_error": {
+      "message": "Expired link"
+   },
+   "transfer_deeplink_nft_address_error": {
+      "message": "NFT地址不正确"
+   },
+   "transfer_deeplink_unknown_jetton_error": {
+      "message": "Unknown token"
+   },
+   "transfer_deeplink_unknown_token": {
+      "message": "Unknown token"
+   },
+   "transfer_deeplink_wrong_params": {
+      "message": "Wrong parameters"
+   },
+   "transfer_from_old_wallet_btn": {
+      "message": "转移"
+   },
+   "transfer_from_old_wallet_caption": {
+      "message": "Tonkeeper将从您的旧地址转移所有硬币到您的当前地址。"
+   },
+   "transfer_from_old_wallet_in_progress": {
+      "message": "转移正在进行中"
+   },
+   "transfer_from_old_wallet_title": {
+      "message": "转移到当前地址"
+   },
+   "transfer_pending_by_battery_error": {
+      "message": "Another transaction is handling by battery"
+   },
+   "try_again": {
+      "message": "Try Again"
+   },
+   "txActions_USDT_transfer": {
+      "message": "USDT Transfer"
+   },
+   "txActions_amount": {
+      "message": "金额"
+   },
+   "txActions_fee": {
+      "message": "费用"
+   },
+   "txActions_refund": {
+      "message": "退款"
+   },
+   "txActions_signRaw_addressMismatch_switchWallet_close": {
+      "message": "Cancel"
+   },
+   "txActions_signRaw_addressMismatch_switchWallet_description": {
+      "message": "Switch wallet to confirm the action."
+   },
+   "txActions_signRaw_addressMismatch_switchWallet_switch": {
+      "message": "Switch and Continue"
+   },
+   "txActions_signRaw_addressMismatch_switchWallet_title": {
+      "message": "Action for your wallet %{value}"
+   },
+   "txActions_signRaw_addressMismatch_wrongVersion_close": {
+      "message": "取消"
+   },
+   "txActions_signRaw_addressMismatch_wrongVersion_description": {
+      "message": "切换您的活动地址至%{version}以确认此操作。"
+   },
+   "txActions_signRaw_addressMismatch_wrongVersion_switch": {
+      "message": "切换并继续"
+   },
+   "txActions_signRaw_addressMismatch_wrongVersion_title": {
+      "message": "您钱包的另一个地址的操作"
+   },
+   "txActions_signRaw_addressMismatch_wrongWallet_close": {
+      "message": "好的"
+   },
+   "txActions_signRaw_addressMismatch_wrongWallet_description": {
+      "message": "登录到另一个钱包%{address}然后再试。"
+   },
+   "txActions_signRaw_addressMismatch_wrongWallet_title": {
+      "message": "另一个钱包的操作"
+   },
+   "txActions_signRaw_comment": {
+      "message": "评论"
+   },
+   "txActions_signRaw_insufficientFunds_rechargeBattery": {
+      "message": "给电池充电"
+   },
+   "txActions_signRaw_insufficientFunds_rechargeWallet": {
+      "message": "充值钱包"
+   },
+   "txActions_signRaw_insufficientFunds_stakingDeposit": {
+      "message": "Minimum balance for participate:\n%{amount} %{currency}\n"
+   },
+   "txActions_signRaw_insufficientFunds_stakingFee": {
+      "message": "%{count} TON needed for transaction. Estimated fee %{fee} TON will be deducted, the rest will be refunded."
+   },
+   "txActions_signRaw_insufficientFunds_title": {
+      "message": "资金不足"
+   },
+   "txActions_signRaw_insufficientFunds_toBePaid": {
+      "message": "支付金额: %{amount} %{currency}\n"
+   },
+   "txActions_signRaw_insufficientFunds_withFees": {
+      "message": "+ 区块链费用。\n"
+   },
+   "txActions_signRaw_insufficientFunds_yourBalance": {
+      "message": "您的余额: %{balance} %{currency}。"
+   },
+   "txActions_signRaw_recipient": {
+      "message": "收款方"
+   },
+   "txActions_signRaw_title": {
+      "message": "确认交易"
+   },
+   "txActions_signRaw_totalFee": {
+      "message": "总费用"
+   },
+   "txActions_signRaw_totalRefund": {
+      "message": "总退款"
+   },
+   "txActions_signRaw_types_contractDeploy": {
+      "message": "合同部署"
+   },
+   "txActions_signRaw_types_jettonTransfer": {
+      "message": "代币转移"
+   },
+   "txActions_signRaw_types_nftItemTransfer": {
+      "message": "NFT转移"
+   },
+   "txActions_signRaw_types_subscribe": {
+      "message": "订阅"
+   },
+   "txActions_signRaw_types_tonTransfer": {
+      "message": "TON转移"
+   },
+   "txActions_signRaw_types_unSubscribe": {
+      "message": "退订"
+   },
+   "txActions_signRaw_types_unknownTransaction": {
+      "message": "未知交易"
+   },
+   "txActions_signRaw_warning_caption": {
+      "message": "Tonkeeper无法完全验证此交易的结果。请确保您信任接收者。"
+   },
+   "txActions_signRaw_warning_title": {
+      "message": "警告"
+   },
+   "txActions_signRaw_wrongTime_button": {
+      "message": "打开设置"
+   },
+   "txActions_signRaw_wrongTime_description": {
+      "message": "似乎您的设备时钟与网络不同步。打开设备设置并启用自动时间和日期。"
+   },
+   "txActions_signRaw_wrongTime_title": {
+      "message": "时钟未同步"
+   },
+   "unverifiedTokenDetails_button": {
+      "message": "OK"
+   },
+   "unverifiedTokenDetails_description": {
+      "message": "This token looks suspicious for one or several reasons."
+   },
+   "unverifiedTokenDetails_paragraphs_p1": {
+      "message": "Low liquidity. Token may have some value, but it is extremely low."
+   },
+   "unverifiedTokenDetails_paragraphs_p2": {
+      "message": "Token is not listed on trading platforms and has limited demand."
+   },
+   "unverifiedTokenDetails_paragraphs_p3": {
+      "message": "Used for spam. Employed for sending unwanted and often irrelevant messages at scale."
+   },
+   "unverifiedTokenDetails_paragraphs_p4": {
+      "message": "Used for scam. Token's name or image can lead users into deception."
+   },
+   "unverifiedTokenDetails_title": {
+      "message": "Unverified Token"
+   },
+   "update": {
+      "message": "Update"
+   },
+   "update_description": {
+      "message": "Tonkeeper的新版本现已可用。您现在可以下载它。"
+   },
+   "update_download": {
+      "message": "下载"
+   },
+   "update_downloading": {
+      "message": "下载中... {{progress}}%"
+   },
+   "update_mb": {
+      "message": "{{size}} MB"
+   },
+   "update_remindLater": {
+      "message": "稍后提醒我"
+   },
+   "update_retry": {
+      "message": "下载错误。点击重试。"
+   },
+   "update_tap": {
+      "message": "点击更新"
+   },
+   "update_title": {
+      "message": "更新Tonkeeper"
+   },
+   "update_version": {
+      "message": "版本 {{version}}"
+   },
+   "username_issued_by_telegram": {
+      "message": "由Telegram发布。"
+   },
+   "username_manage_name_button": {
+      "message": "管理名称"
+   },
+   "wallet_about": {
+      "message": "关于"
+   },
+   "wallet_address": {
+      "message": "Wallet address"
+   },
+   "wallet_aside_history": {
+      "message": "History"
+   },
+   "wallet_aside_purchases": {
+      "message": "Purchases"
+   },
+   "wallet_aside_settings": {
+      "message": "Settings"
+   },
+   "wallet_aside_tokens": {
+      "message": "Tokens"
+   },
+   "wallet_buy": {
+      "message": "购买"
+   },
+   "wallet_buy_btn": {
+      "message": "购买TON"
+   },
+   "wallet_chat": {
+      "message": "聊天室"
+   },
+   "wallet_collectibles_tab_lable": {
+      "message": "收藏品"
+   },
+   "wallet_community": {
+      "message": "社区"
+   },
+   "wallet_edit_tokens_btn": {
+      "message": "编辑"
+   },
+   "wallet_hours_symbol": {
+      "message": "h"
+   },
+   "wallet_inscriptions_tab_label": {
+      "message": "Inscriptions"
+   },
+   "wallet_multi_send": {
+      "message": "Multi Send"
+   },
+   "wallet_nft_tab_lable": {
+      "message": "Collectibles"
+   },
+   "wallet_old_balance": {
+      "message": "老钱包："
+   },
+   "wallet_old_wallet_title": {
+      "message": "旧钱包"
+   },
+   "wallet_old_wallets_title": {
+      "message": "旧钱包"
+   },
+   "wallet_receive": {
+      "message": "接收"
+   },
+   "wallet_receive_btn": {
+      "message": "接收"
+   },
+   "wallet_screen_title": {
+      "message": "钱包"
+   },
+   "wallet_sell": {
+      "message": "出售"
+   },
+   "wallet_send": {
+      "message": "发送"
+   },
+   "wallet_send_btn": {
+      "message": "发送"
+   },
+   "wallet_source_code": {
+      "message": "源代码"
+   },
+   "wallet_swap": {
+      "message": "交换"
+   },
+   "wallet_swap_btn": {
+      "message": "交换"
+   },
+   "wallet_title": {
+      "message": "钱包"
+   },
+   "wallet_toncommunity_chat_link": {
+      "message": "https://t.me/toncoin_chat"
+   },
+   "wallet_toncommunity_link": {
+      "message": "https://t.me/toncoin"
+   },
+   "wallet_tonkens_tab_lable": {
+      "message": "代币"
+   },
+   "wallet_updated_at": {
+      "message": "Updated on %{value}"
+   },
+   "wallets": {
+      "message": "钱包"
+   },
+   "watch_only": {
+      "message": "仅限观察"
+   },
+   "yesterday": {
+      "message": "昨天"
+   }
+}

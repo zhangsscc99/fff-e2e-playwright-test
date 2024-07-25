@@ -1,0 +1,25 @@
+import { chromium, BrowserContext } from '@playwright/test';
+import path from 'path';
+
+import { test as base } from '@playwright/test';
+
+
+
+
+export const test = base.extend<{
+    context1: BrowserContext
+}>({
+    context1: async ({}, use) => {
+        const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
+        const userDataDir = '../assets/Profile_test/Profile';
+        const browserContext = await chromium.launchPersistentContext(userDataDir, {
+            headless: false,
+            args: [
+                `--disable-extensions-except=${pathToExtension}`,
+                `--load-extension=${pathToExtension}`
+            ]
+        });
+        await use(browserContext);
+        await browserContext.close();
+    }
+});
