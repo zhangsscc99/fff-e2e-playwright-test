@@ -37,7 +37,7 @@ jobs:
       - name: Start XVFB and run Playwright tests
         run: |
           
-          xvfb-run npx playwright test TransferTonCopy.spec.ts
+          xvfb-run npx playwright test TransferTon.spec.ts
       # xvfb-run npx ts-node tests-github-actions/InvitationInit-test.ts
       # - name: Start XVFB and run Playwright test
       #   run: |
