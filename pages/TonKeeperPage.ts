@@ -7,13 +7,7 @@ export class TonkeeperPage {
         this.page = page;
     }
 
-    async clickTonkeeper() {
-        await this.page.click('text=Tonkeeper');
-    }
-
-    async clickBrowserExtension() {
-        await this.page.click('text=Browser Extension');
-    }
+    
 
     async start() {
         await this.page.click('text=Start');

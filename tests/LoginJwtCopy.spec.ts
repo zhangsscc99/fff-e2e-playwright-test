@@ -14,8 +14,8 @@ test('test', async ({ context1 }) => {
     
     const [newPage] = await Promise.all([
         context1.waitForEvent('page'),  
-        tonkeeperPage.clickTonkeeper(),  
-        tonkeeperPage.clickBrowserExtension(),
+        homePage.clickTonkeeper(),  
+        homePage.clickBrowserExtension(),
     ]);
 
     const tonkeeperNewPage = new TonkeeperPage(newPage);
