@@ -53,13 +53,13 @@ test('test', async ({ context2 }) => {
     await tonkeeperNewPage2.fillPasswordField(password);
     await tonkeeperNewPage2.confirm();
 
-    // const dialogCloseButtonSelector = 'div[role="dialog"][id="radix-:r0:"] button[data-sentry-element="DialogClose"]';
-    // await tonkeeperNewPage2.closeDialog(dialogCloseButtonSelector);
+    const dialogCloseButtonSelector = 'div[role="dialog"][id="radix-:r0:"] button[data-sentry-element="DialogClose"]';
+    await tonkeeperNewPage2.closeDialog(dialogCloseButtonSelector);
 
-    // await homePage.clickSave();
-    // await homePage.fillAmount('1');
+    await homePage.clickSave();
+    await homePage.fillAmount('1');
 
-    // await tonkeeperNewPage2.close();
+    await tonkeeperNewPage2.close();
 
     // const [newPage3] = await Promise.all([
     //     context2.waitForEvent('page'),  
