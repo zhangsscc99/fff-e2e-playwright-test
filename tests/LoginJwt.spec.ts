@@ -1,25 +1,32 @@
 import { test } from '../fixtures.ts';
+import { HomePage } from '../pages/HomePage.ts';
+import { TonkeeperPage } from '../pages/TonKeeperPage.ts';
 
 test('test', async ({ context1 }) => {
     const pages = context1.pages();
     const page = pages.length > 0 ? pages[0] : await context1.newPage();
 
-    await page.goto('https://www.fafafa.io/');
-    await page.click('text=Connect');
+    const homePage = new HomePage(page);
+    const tonkeeperPage = new TonkeeperPage(page);
+
+    await homePage.goto();
+    await homePage.connect();
     
     const [newPage] = await Promise.all([
         context1.waitForEvent('page'),  
-        page.getByText('Tonkeeper').click(),  // Click button
-        page.getByText('Browser Extension').click(),
+        homePage.clickTonkeeper(),  
+        homePage.clickBrowserExtension(),
     ]);
 
-    await newPage.click('text=Start'); 
+    const tonkeeperNewPage = new TonkeeperPage(newPage);
+    await tonkeeperNewPage.start();
 
     const [walletPage] = await Promise.all([
-        context1.waitForEvent('page'),  // Wait for the new page event
-        await newPage.click('text=Existing Wallet'),
+        context1.waitForEvent('page'),
+        tonkeeperNewPage.existingWallet(),
     ]);
 
+    const tonkeeperWalletPage = new TonkeeperPage(walletPage);
     const words = [
         'arrow', 'unfair', 'luxury', 'cement', 'vivid', 'turn',
         'message', 'power', 'monkey', 'fine', 'decrease', 'black',
@@ -28,31 +35,24 @@ test('test', async ({ context1 }) => {
     ];
     const password = '951369ting';
 
-    for (let i = 0; i < words.length; i++) {
-        await walletPage.fill(`input[tabindex="${i + 1}"]`, words[i]);
-    }
-    await walletPage.click('text=Continue');
-    
-    await walletPage.fill('input:below(:text("Password"))', password);
-    await walletPage.keyboard.press('Tab');
-    await walletPage.keyboard.type(password);
-    await walletPage.click('text=Continue');
-    await walletPage.waitForSelector('text=your wallet');
+    await tonkeeperWalletPage.fillWords(words);
+    await tonkeeperWalletPage.continue();
+    await tonkeeperWalletPage.fillPassword(password);
+    await tonkeeperWalletPage.waitForWallet();
 
-    await page.click('button.go3758850101.go1339123738[data-tc-icon-button="true"]');
-    await page.click('text=Connect');
+    await homePage.clickConnectButton();
+    await homePage.connect();
 
     const [newPage2] = await Promise.all([
         context1.waitForEvent('page'),  
-        page.getByText('Tonkeeper').click(),  // Click button
-        page.getByText('Browser Extension').click(),
+        homePage.clickTonkeeper(),
+        homePage.clickBrowserExtension(),
     ]);
 
-    await newPage2.click('text=Connect Wallet'); 
-    const passwordSelector = 'input[type="password"].sc-hJJSeN.ixSRbR';
-    await newPage2.fill(passwordSelector, '951369ting');
-    await newPage2.click('text=Confirm');
-
+    const tonkeeperNewPage2 = new TonkeeperPage(newPage2);
+    await tonkeeperNewPage2.connectWallet();
+    await tonkeeperNewPage2.fillPasswordField(password);
+    await tonkeeperNewPage2.confirm();
 
     let jwtToken = '';
    
@@ -65,13 +65,7 @@ test('test', async ({ context1 }) => {
         }
     });
 
-    // Define API base URL
     const apiBaseUrl = 'https://fafafa.io'; // Replace with your actual API base URL
-
-    // Simulate an API call to /api/account_info that includes JWT
-   
-
-    
 
     page.on('request', request => {
         const url = request.url();

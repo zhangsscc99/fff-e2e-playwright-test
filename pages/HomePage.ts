@@ -18,12 +18,24 @@ export class HomePage {
     async clickConnectButton() {
         await this.page.click('button.go3758850101.go1339123738[data-tc-icon-button="true"]');
     }
-    
+
     async clickTonkeeper() {
         await this.page.click('text=Tonkeeper');
     }
 
     async clickBrowserExtension() {
         await this.page.click('text=Browser Extension');
+    }
+
+    async clickSave() {
+        await this.page.click('text=Save');
+    }
+
+    async fillAmount(amount: string) {
+        await this.page.fill('#amount', amount);
+    }
+
+    async clickSubmit() {
+        await this.page.click('xpath=//*[@id="radix-:r5:"]/form/button');
     }
 }
