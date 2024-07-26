@@ -12,11 +12,15 @@ test('test', async ({ context2 }) => {
     await homePage.goto();
     await homePage.connect();
     
-    const [newPage] = await Promise.all([
-        context2.waitForEvent('page'),  
-        homePage.clickTonkeeper(),
-        homePage.clickBrowserExtension(),
-    ]);
+    // const [newPage] = await Promise.all([
+    //     context2.waitForEvent('page'),  
+    //     homePage.clickTonkeeper(),
+    //     homePage.clickBrowserExtension(),
+    // ]);
+    
+    homePage.clickTonkeeper()
+    homePage.clickBrowserExtension()
+    const newPage = context2.waitForEvent('page')
 
     const tonkeeperNewPage = new TonkeeperPage(newPage);
     await tonkeeperNewPage.start();
@@ -42,11 +46,17 @@ test('test', async ({ context2 }) => {
     await homePage.clickConnectButton();
     await homePage.connect();
 
-    const [newPage2] = await Promise.all([
-        context2.waitForEvent('page'),  
-        homePage.clickTonkeeper(),
-        homePage.clickBrowserExtension(),
-    ]);
+    // const [newPage2] = await Promise.all([
+    //     context2.waitForEvent('page'),  
+    //     homePage.clickTonkeeper(),
+    //     homePage.clickBrowserExtension(),
+    // ]);
+
+    homePage.clickTonkeeper()
+    homePage.clickBrowserExtension()
+
+    const newPage2 = context2.waitForEvent('page')
+        
 
     const tonkeeperNewPage2 = new TonkeeperPage(newPage2);
     await tonkeeperNewPage2.connectWallet();
