@@ -33,7 +33,7 @@ test('test', async ({ context2 }) => {
         'gauge', 'cabbage', 'vapor', 'guess', 'turkey', 'chef', 'hamster', 'struggle'
     ];
     const password = '951369ting';
-
+//
     await tonkeeperWalletPage.fillWords(words);
     await tonkeeperWalletPage.continue();
     await tonkeeperWalletPage.fillPassword(password);
