@@ -73,9 +73,9 @@ test('test', async ({ context2 }) => {
     const newPage3 = await context2.waitForEvent('page');
 
 
-    // await newPage3.click('button.sc-Gqece.cXPFCG');
-    // const inputSelector = 'input[type="password"].sc-hJJSeN.ixSRbR';
-    // await newPage3.waitForSelector(inputSelector);
-    // await newPage3.type(inputSelector, password);
-    // await newPage3.click('button.sc-Gqece.jciBOl');
+    await newPage3.click('button.sc-Gqece.cXPFCG');
+    const inputSelector = 'input[type="password"].sc-hJJSeN.ixSRbR';
+    await newPage3.waitForSelector(inputSelector);
+    await newPage3.type(inputSelector, password);
+    await newPage3.click('button.sc-Gqece.jciBOl');
 });
