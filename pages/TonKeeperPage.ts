@@ -1,29 +1,58 @@
-import { Page } from "@playwright/test";
+import { Page } from '@playwright/test';
 
-export class TonKeeperConfirmPage {
-  constructor(private readonly page: Page) {}
+export class TonkeeperPage {
+    readonly page: Page;
 
-  private async confirmPassword() {
+    constructor(page: Page) {
+        this.page = page;
+    }
 
-    await this.page
-      .getByRole("textbox", { name: "Enter your password" })
-      .fill("password");
+    async clickTonkeeper() {
+        await this.page.click('text=Tonkeeper');
+    }
 
-    await this.page.getByRole("button", { name: "Confirm" }).click();
-  }
+    async clickBrowserExtension() {
+        await this.page.click('text=Browser Extension');
+    }
 
-  async confirm() {
-    await this.page.getByRole("button", { name: "Confirm" }).click();
-    await this.confirmPassword()
-  }
+    async start() {
+        await this.page.click('text=Start');
+    }
 
-  async cancel() {
-    return this.page.getByRole("button", { name: "Cancel" }).click();
-  }
+    async existingWallet() {
+        await this.page.click('text=Existing Wallet');
+    }
 
-  async connect() {
-    await this.page.getByRole('button', { name: 'Connect Wallet' }).click()
-    await this.confirmPassword()
+    async fillWords(words: string[]) {
+        for (let i = 0; i < words.length; i++) {
+            await this.page.fill(`input[tabindex="${i + 1}"]`, words[i]);
+        }
+    }
 
-  }
+    async continue() {
+        await this.page.click('text=Continue');
+    }
+
+    async fillPassword(password: string) {
+        await this.page.fill('input:below(:text("Password"))', password);
+        await this.page.keyboard.press('Tab');
+        await this.page.keyboard.type(password);
+        await this.page.click('text=Continue');
+    }
+
+    async connectWallet() {
+        await this.page.click('text=Connect Wallet');
+    }
+
+    async fillPasswordField(password: string) {
+        await this.page.fill('input[type="password"].sc-hJJSeN.ixSRbR', password);
+    }
+
+    async confirm() {
+        await this.page.click('text=Confirm');
+    }
+
+    async waitForWallet() {
+        await this.page.waitForSelector('text=your wallet');
+    }
 }
