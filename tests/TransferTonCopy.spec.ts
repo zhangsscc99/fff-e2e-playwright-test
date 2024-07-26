@@ -59,7 +59,7 @@ test('test', async ({ context2 }) => {
     await homePage.clickSave();
     await homePage.fillAmount('1');
 
-    await tonkeeperNewPage2.close();
+    // await tonkeeperNewPage2.close();
 
     const [newPage3] = await Promise.all([
         context2.waitForEvent('page'),  
