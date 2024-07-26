@@ -61,10 +61,10 @@ test('test', async ({ context2 }) => {
 
     await tonkeeperNewPage2.close();
 
-    // const [newPage3] = await Promise.all([
-    //     context2.waitForEvent('page'),  
-    //     await homePage.clickSubmit(),
-    // ]);
+    const [newPage3] = await Promise.all([
+        context2.waitForEvent('page'),  
+        await homePage.clickSubmit(),
+    ]);
 
     // await newPage3.click('button.sc-Gqece.cXPFCG');
     // const inputSelector = 'input[type="password"].sc-hJJSeN.ixSRbR';
