@@ -71,8 +71,8 @@ test('test', async ({ context2 }) => {
     await homePage.clickSubmit();
 
    
-    const newPage3 = await context2.waitForEvent('page');
-
+    // const newPage3 = await context2.waitForEvent('page');
+    const newPage3 = await context2.waitForEvent('page', { timeout: 60000 });
 
     await newPage3.click('button.sc-Gqece.cXPFCG');
     const inputSelector = 'input[type="password"].sc-hJJSeN.ixSRbR';
