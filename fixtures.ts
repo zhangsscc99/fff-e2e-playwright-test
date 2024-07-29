@@ -35,6 +35,7 @@ export const test = base.extend<{
         await use(browserContext);
         await browserContext.close();
     },
+    
     context3: async ({}, use) => {
         const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
         const userDataDir = '../assets/Profile_test/Profile3'; 
