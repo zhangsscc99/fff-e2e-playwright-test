@@ -67,10 +67,9 @@ test('test', async ({ context2 }) => {
     //     await homePage.clickSubmit(),
     // ]);
 
-     
-    await homePage.clickSubmit();
+    
 
-   
+    await homePage.clickSubmit();
     // const newPage3 = await context2.waitForEvent('page');
     const newPage3 = await context2.waitForEvent('page', { timeout: 60000 });
 
