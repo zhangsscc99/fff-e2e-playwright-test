@@ -34,6 +34,7 @@
 //     // 从 XPath 元素中提取文本内容
 //     const referralCode = await page.evaluate(element => element.textContent, referralCodeElement);
 
+
     
 //     console.log(referralCode);
 //     console.log(password);
