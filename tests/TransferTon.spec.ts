@@ -55,7 +55,7 @@ test('test', async ({ context2 }) => {
     await tonkeeperNewPage2.confirm();
 
     const dialogCloseButtonSelector = 'div[role="dialog"][id="radix-:r0:"] button[data-sentry-element="DialogClose"]';
-    await tonkeeperNewPage2.closeDialog(dialogCloseButtonSelector);
+    await homePage.closeDialog(dialogCloseButtonSelector);
 
     await homePage.clickSave();
     await homePage.fillAmount('1');

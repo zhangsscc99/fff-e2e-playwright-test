@@ -50,11 +50,7 @@ export class TonkeeperPage {
         await this.page.waitForSelector('text=your wallet');
     }
 
-    async closeDialog(dialogCloseButtonSelector: string) {
-      if (await this.page.$(dialogCloseButtonSelector) !== null) {
-          await this.page.click(dialogCloseButtonSelector);
-      }
-    }
+    
 
     async close() {
       await this.page.close();

@@ -38,4 +38,10 @@ export class HomePage {
     async clickSubmit() {
         await this.page.click('xpath=//*[@id="radix-:r5:"]/form/button');
     }
+
+    async closeDialog(dialogCloseButtonSelector: string) {
+        if (await this.page.$(dialogCloseButtonSelector) !== null) {
+            await this.page.click(dialogCloseButtonSelector);
+        }
+      }
 }
