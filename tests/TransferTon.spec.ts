@@ -60,18 +60,21 @@ test('test', async ({ context2 }) => {
     await homePage.clickSave();
     await homePage.fillAmount('1');
 
-    // await tonkeeperNewPage2.close();
+    await tonkeeperNewPage2.close();
 
     // const [newPage3] = await Promise.all([
     //     context2.waitForEvent('page'),  
     //     await homePage.clickSubmit(),
     // ]);
 
-    
+    const [newPage3] = await Promise.all([
+        context2.waitForEvent('page'),
+        await homePage.clickSubmit()
+    ]);
 
-    await homePage.clickSubmit();
-    // const newPage3 = await context2.waitForEvent('page');
-    const newPage3 = await context2.waitForEvent('page', { timeout: 60000 });
+    // await homePage.clickSubmit();
+    // // const newPage3 = await context2.waitForEvent('page');
+    // const newPage3 = await context2.waitForEvent('page', { timeout: 60000 });
 
     await newPage3.click('button.sc-Gqece.cXPFCG');
     const inputSelector = 'input[type="password"].sc-hJJSeN.ixSRbR';

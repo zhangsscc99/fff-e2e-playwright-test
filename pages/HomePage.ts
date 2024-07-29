@@ -40,8 +40,8 @@ export class HomePage {
     }
 
     async closeDialog(dialogCloseButtonSelector: string) {
-        if (await this.page.$(dialogCloseButtonSelector) !== null) {
-            await this.page.click(dialogCloseButtonSelector);
-        }
+        
+        await this.page.click('div[role="dialog"][id="radix-:r0:"] button[data-sentry-element="DialogClose"]');
+        
       }
 }
