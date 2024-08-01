@@ -8,10 +8,12 @@ export const test = base.extend<{
     context1: BrowserContext
     context2: BrowserContext
     context3: BrowserContext
+    context4: BrowserContext
+    context5: BrowserContext
 }>({
     context1: async ({}, use) => {
         const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
-        const userDataDir = '../assets/Profile_test/Profile';
+        const userDataDir = '../assets/Profile_test/Profile88';
         const browserContext = await chromium.launchPersistentContext(userDataDir, {
             headless: false,
             args: [
@@ -24,7 +26,7 @@ export const test = base.extend<{
     },
     context2: async ({}, use) => {
         const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
-        const userDataDir = '../assets/Profile_test/Profile2'; 
+        const userDataDir = '../assets/Profile_test/Profile89'; 
         const browserContext = await chromium.launchPersistentContext(userDataDir, {
             headless: false,
             args: [
@@ -35,10 +37,35 @@ export const test = base.extend<{
         await use(browserContext);
         await browserContext.close();
     },
-    
     context3: async ({}, use) => {
         const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
-        const userDataDir = '../assets/Profile_test/Profile3'; 
+        const userDataDir = '../assets/Profile_test/Profile90'; 
+        const browserContext = await chromium.launchPersistentContext(userDataDir, {
+            headless: false,
+            args: [
+                `--disable-extensions-except=${pathToExtension}`,
+                `--load-extension=${pathToExtension}`
+            ]
+        });
+        await use(browserContext);
+        await browserContext.close();
+    },
+    context4: async ({}, use) => {
+        const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
+        const userDataDir = '../assets/Profile_test/Profile91'; 
+        const browserContext = await chromium.launchPersistentContext(userDataDir, {
+            headless: false,
+            args: [
+                `--disable-extensions-except=${pathToExtension}`,
+                `--load-extension=${pathToExtension}`
+            ]
+        });
+        await use(browserContext);
+        await browserContext.close();
+    },
+    context5: async ({}, use) => {
+        const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
+        const userDataDir = '../assets/Profile_test/Profile92'; 
         const browserContext = await chromium.launchPersistentContext(userDataDir, {
             headless: false,
             args: [

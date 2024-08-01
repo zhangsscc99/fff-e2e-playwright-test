@@ -1,92 +1,56 @@
-// import path from 'path';
-// import { createWallet } from '../createWallet';
-// import { Login } from '../Login';
+import { test } from '../fixtures';
+import { HomePage } from '../pages/HomePage';
+import { TonkeeperPage } from '../pages/TonKeeperPage';
 
+const password = '951369ting';
 
-// const userDataDir = path.resolve("../Profile_CICD/Profile_test");
-// const userDataDir2 = path.resolve("../Profile_CICD/Profile_test2");
-// const userDataDir3 = path.resolve("../Profile_CICD/Profile_test3");
+test('create and connect wallet', async ({ context1, context2, context3 }) => {
+  // First Context
+  const page1 = await context1.newPage();
+  const homePage1 = new HomePage(page1);
+  const tonkeeperPage1 = new TonkeeperPage(page1);
 
+  await homePage1.goto();
+  await homePage1.connect();
+  await homePage1.clickTonkeeper();
+  await homePage1.clickBrowserExtension();
+  await tonkeeperPage1.start();
+  await tonkeeperPage1.existingWallet();
 
-// const password = '951369ting';
+  const words = ['word1', 'word2', 'word3'];  // Replace with actual words
+  await tonkeeperPage1.fillWords(words);
+  await tonkeeperPage1.continue();
+  await tonkeeperPage1.fillPassword(password);
+  await tonkeeperPage1.waitForWallet();
 
-// (async () => {
-//   try {
-//     const res = await createWallet(userDataDir, password);
-//     const page = res.page;
-//     const texts = res.texts;
-//     const browser = res.browser;
-//     await page.click('div[role="dialog"][id="radix-:r0:"] button[data-sentry-element="DialogClose"]');
+  const clipboardContent = await page1.evaluate(() => navigator.clipboard.readText());
+  console.log('Clipboard content:', clipboardContent);
 
-    
-    
-//     await page.getByText('Referral').click();
+  // Second Context
+  const page2 = await context2.newPage();
+  const homePage2 = new HomePage(page2);
+  const tonkeeperPage2 = new TonkeeperPage(page2);
 
-  
-//     // const referralCodeElement = await page.waitForSelector('div.flex.flex-col span.text-sm');
-  
-//     // const referralCode = await referralCodeElement.textContent();
+  await homePage2.goto();
+  await homePage2.connect();
+  await homePage2.clickTonkeeper();
+  await homePage2.clickBrowserExtension();
+  await tonkeeperPage2.connectWallet();
+  await tonkeeperPage2.fillPasswordField(password);
+  await tonkeeperPage2.confirm();
 
-//     // 等待直到 XPath 元素可用
-//     // 这里的xpath是referral code，之前可读性强的一个路径不可用了
-//     const referralCodeElement = await page.waitForSelector('xpath=/html/body/div[1]/div/div[1]/div/div[3]/button[1]/div/span[2]');
+  // Third Context
+  const page3 = await context3.newPage();
+  const homePage3 = new HomePage(page3);
+  const tonkeeperPage3 = new TonkeeperPage(page3);
 
-//     // 从 XPath 元素中提取文本内容
-//     const referralCode = await page.evaluate(element => element.textContent, referralCodeElement);
+  await homePage3.goto();
+  await homePage3.connect();
+  await homePage3.clickTonkeeper();
+  await homePage3.clickBrowserExtension();
+  await tonkeeperPage3.connectWallet();
+  await tonkeeperPage3.fillPasswordField(password);
+  await tonkeeperPage3.confirm();
 
-
-    
-//     console.log(referralCode);
-//     console.log(password);
-//     console.log(texts);
-
-    
-
-//     const res2 = await createWallet(userDataDir2, password);
-//     const page2 = res2.page;
-//     const browser2 = res2.browser;
-//     // const inputLocator = page2.locator('//html/body/div[4]/form/input');
-    
-//     const inputLocator = page2.locator('div[role="dialog"][id="radix-:r0:"] input[type="string"]#code');
-    
-//     await inputLocator.fill(referralCode as string); 
-    
-//     page2.getByText('Submit').click();
-
-//     const res3 = await Login(userDataDir3, password, texts);
-
-//     const page3 = res3.page;
-    
-//     const browser3 = res3.browser;
-  
-//     await page3.click('div[role="dialog"][id="radix-:r0:"] button[data-sentry-element="DialogClose"]');
-    
-//     await page3.getByText('Referral').click();
-
-//     browser.close();
-//     browser2.close();
-//     browser3.close();
-    
-
-    
-
-//     // console.log('Additional actions completed successfully.');
-//   } catch (error) {
-//     console.error('Error during automation process:', error);
-//   }
-// })();
-
-
-
-
-    
-
-  
-
-    
-  
-  
-
-
-// //     // await browser.close();
-// // })();
+  console.log('Additional actions completed successfully.');
+});

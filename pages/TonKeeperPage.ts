@@ -13,6 +13,10 @@ export class TonkeeperPage {
         await this.page.click('text=Start');
     }
 
+    async newWallet() {
+        await this.page.click('text=New Wallet');
+    }
+
     async existingWallet() {
         await this.page.click('text=Existing Wallet');
     }
@@ -31,7 +35,6 @@ export class TonkeeperPage {
         await this.page.fill('input:below(:text("Password"))', password);
         await this.page.keyboard.press('Tab');
         await this.page.keyboard.type(password);
-        await this.page.click('text=Continue');
     }
 
     async connectWallet() {
@@ -54,5 +57,41 @@ export class TonkeeperPage {
 
     async close() {
       await this.page.close();
+    }
+
+    async getTextNodes() {
+        return await this.page.evaluate(() => {
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+            const textNodes: string[] = [];
+            let node: Node | null;
+
+            while ((node = walker.nextNode()) !== null) {
+                const nodeValue = node.nodeValue ? node.nodeValue.trim() : '';
+                if (nodeValue && !/[\s\d.,!?;:，。！？、：]/.test(nodeValue) && !/[\u4e00-\u9fa5]/.test(nodeValue)) {
+                    textNodes.push(nodeValue);
+                }
+            }
+            return textNodes;
+        });
+    }
+
+    async getNumbersFromXPaths(xpaths: string[]) {
+        const numbers: number[] = [];
+        for (const xpath of xpaths) {
+            const locator = this.page.locator(`xpath=${xpath}`);
+            await locator.waitFor(); 
+            const text = await locator.textContent();
+            if (text !== null) {
+                const number = parseFloat(text.trim());
+                if (!isNaN(number)) {
+                    numbers.push(number);
+                } else {
+                    console.error(`Failed to convert text to number for XPath: ${xpath}`);
+                }
+            } else {
+                console.error(`Failed to locate element or extract text content for XPath: ${xpath}`);
+            }
+        }
+        return numbers;
     }
 }
