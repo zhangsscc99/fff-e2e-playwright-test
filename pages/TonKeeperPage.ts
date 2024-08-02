@@ -13,9 +13,7 @@ export class TonkeeperPage {
         await this.page.click('text=Start');
     }
 
-    async newWallet() {
-        await this.page.click('text=New Wallet');
-    }
+    
 
     async existingWallet() {
         await this.page.click('text=Existing Wallet');
@@ -93,5 +91,9 @@ export class TonkeeperPage {
             }
         }
         return numbers;
+    }
+
+    async newWallet() {
+        await this.page.click('text=Create new wallet');
     }
 }

@@ -5,7 +5,7 @@ import shutil
 user_data_dir = "/home/zhangsscc99/fff-e2e-framework/fff-e2e/assets/Standard_User_Data"
 
 # 目标目录和名称
-target_profiles = ['Profile 88', 'Profile 89', 'Profile 90', 'Profile 91', 'Profile 92']
+target_profiles = ['Profile 10', 'Profile 11', 'Profile 12', 'Profile 13', 'Profile 14']
 
 def copy_directory(src, dest):
     if os.path.exists(dest):
