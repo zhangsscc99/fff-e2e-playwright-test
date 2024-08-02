@@ -35,6 +35,7 @@ test('Create Wallet and Handle Referral', async ({ context1, context2 }) => {
     console.log(texts);
 
     const res2 = await createWallet(context2, password);
+    console.log("second stage");
     const page2 = res2.page;
     const browser2 = res2.context;
    
