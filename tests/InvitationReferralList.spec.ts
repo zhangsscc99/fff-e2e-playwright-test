@@ -1,6 +1,7 @@
 import path from 'path';
 import { test } from '../fixtures';  // Assuming the fixtures file is named fixtures.ts
 import { createWallet } from '../modules/newAccount';
+import { createWallet2 } from '../modules/newAccount2';
 
 const password = '951369ting';
 
@@ -34,7 +35,7 @@ test('Create Wallet and Handle Referral', async ({ context1, context2 }) => {
     console.log(password);
     console.log(texts);
 
-    const res2 = await createWallet(context2, password);
+    const res2 = await createWallet2(context2, password);
     console.log("second stage");
     const page2 = res2.page;
     const browser2 = res2.context;
