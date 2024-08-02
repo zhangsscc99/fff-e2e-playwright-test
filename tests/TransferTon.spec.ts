@@ -38,6 +38,7 @@ test('test', async ({ context2 }) => {
     await tonkeeperWalletPage.fillWords(words);
     await tonkeeperWalletPage.continue();
     await tonkeeperWalletPage.fillPassword(password);
+    await tonkeeperWalletPage.continue();
     await tonkeeperWalletPage.waitForWallet();
 
     await homePage.clickConnectButton();
