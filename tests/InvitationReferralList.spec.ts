@@ -7,7 +7,11 @@ const password = '951369ting';
 
 test('Create Wallet and Handle Referral', async ({ context1, context2 }) => {
   try {
-    const { page, texts } = await createWallet(context1, password);
+    // const { page, texts } = await createWallet(context1, password);
+    const res = await createWallet(context1, password);
+    const page = res.page;
+    const texts = res.texts;
+    const browser = res.context;
 
     // Close the dialog
     await page.click('div[role="dialog"][id="radix-:r0:"] button[data-sentry-element="DialogClose"]');
@@ -34,6 +38,8 @@ test('Create Wallet and Handle Referral', async ({ context1, context2 }) => {
     console.log(clipboardContent);
     console.log(password);
     console.log(texts);
+
+    browser.close();
 
     const res2 = await createWallet2(context2, password);
     console.log("second stage");
