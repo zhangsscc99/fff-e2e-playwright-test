@@ -37,7 +37,7 @@ jobs:
       - name: Start XVFB and run Playwright tests
         run: |
           
-          xvfb-run npx playwright test InvitationReferralList.spec.ts
+          xvfb-run npx playwright test
       
       
       # tests/InvitationReferralList.spec.ts
