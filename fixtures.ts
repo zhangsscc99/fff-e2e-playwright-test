@@ -13,7 +13,7 @@ export const test = base.extend<{
 }>({
     context1: async ({}, use) => {
         const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
-        const userDataDir = '../assets/Profile_test/Profile 10';
+        const userDataDir = '../assets/Profile_test/Profile 88';
         const browserContext = await chromium.launchPersistentContext(userDataDir, {
             headless: false,
             permissions: ['clipboard-read', 'clipboard-write'],
@@ -27,7 +27,7 @@ export const test = base.extend<{
     },
     context2: async ({}, use) => {
         const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
-        const userDataDir = '../assets/Profile_test/Profile 15'; 
+        const userDataDir = '../assets/Profile_test/Profile 89'; 
         const browserContext = await chromium.launchPersistentContext(userDataDir, {
             headless: false,
             permissions: ['clipboard-read', 'clipboard-write'],
@@ -41,7 +41,7 @@ export const test = base.extend<{
     },
     context3: async ({}, use) => {
         const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
-        const userDataDir = '../assets/Profile_test/Profile 12'; 
+        const userDataDir = '../assets/Profile_test/Profile 90'; 
         const browserContext = await chromium.launchPersistentContext(userDataDir, {
             headless: false,
             permissions: ['clipboard-read', 'clipboard-write'],
