@@ -75,3 +75,4 @@ export async function createWallet2(context: BrowserContext, password: string) {
 
     return {page, texts, context};
 }
+//
