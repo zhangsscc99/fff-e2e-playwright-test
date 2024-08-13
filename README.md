@@ -39,9 +39,9 @@ The latest updates on your projects. Learn more about [Vercel for Git](https://v
 
 | Name         | Status       | Preview                                   | Comments     | Updated (UTC)         |
 |--------------|--------------|-------------------------------------------|--------------|-----------------------|
-| fff-frontend | ✅ Ready [Inspect](https://your-inspect-link.com) | [Visit Preview](https://your-preview-link.com) | [Add feedback](https://your-feedback-link.com) | Jul 22, 2024 5:22am |
+| fff-frontend | ✅ Ready [Inspect](https://your-inspect-link.com) | [Visit Preview](https://github.com/zhangsscc99/fff-e2e-playwright-test) | [Add feedback](https://your-feedback-link.com) | Jul 22, 2024 5:22am |
 
 ## Links to Related Repositories
 
-- [Original Frontend Repository](https://github.com/your-username/original-frontend-repo)
+- [Original Frontend Repository](https://github.com/MoreChickenDelivered/fff-frontend)
 
