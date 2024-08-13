@@ -69,7 +69,7 @@ export const test = base.extend<{
     },
     context5: async ({}, use) => {
         const pathToExtension = path.join(__dirname, 'assets/Extensions/omaabbefbmiijedngplfjmnooppbclkk/3.13.0_0');
-        const userDataDir = '../assets/Profile_test/Profile 14'; 
+        const userDataDir = '../assets/Profile_test/Profile 13'; 
         const browserContext = await chromium.launchPersistentContext(userDataDir, {
             headless: false,
             permissions: ['clipboard-read', 'clipboard-write'],
